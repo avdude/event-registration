@@ -159,12 +159,12 @@ function evr_events_page($atts) {
 function evr_init(){
     //register admin scripts
     wp_register_script($handle = 'evr_admin_script', $src = plugins_url('/scripts/evr.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
-    wp_register_script($handle = 'evr_fancy', $src = plugins_url('/scripts/fancybox/jquery.fancybox-1.3.4.pack.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
+    //wp_register_script($handle = 'evr_fancy', $src = plugins_url('/scripts/fancybox/jquery.fancybox-1.3.4.pack.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
     wp_register_script($handle = 'evr_tab_script', $src = plugins_url('/scripts/evr_tabs.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
     wp_register_script($handle = 'evr_tooltip_script', $src = plugins_url('/js/jquery.tooltip.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
     //register public scripts
     wp_register_script($handle = 'evr_public_script', $src = plugins_url('/evr_public_script.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
-    wp_register_script($handle = 'evr_public_fancy', $src = plugins_url('/scripts/fancybox/jquery.fancybox-1.3.4.pack.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
+    //wp_register_script($handle = 'evr_public_fancy', $src = plugins_url('/scripts/fancybox/jquery.fancybox-1.3.4.pack.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
     wp_register_script($handle = 'evr_public_easing', $src = plugins_url('/scripts/fancybox/jquery.easing-1.3.pack.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
     wp_register_script($handle = 'evr_public_mouswheel', $src = plugins_url('/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
     wp_register_script($handle = 'evr_public_colorbox', $src = plugins_url('/colorbox/js/jquery.colorbox.js', __FILE__), $deps = array(), $ver = '1.0.0', $media = 'all');
