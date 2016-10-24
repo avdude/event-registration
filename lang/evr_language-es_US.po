@@ -1,0 +1,3405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Registration\n"
+"POT-Creation-Date: 2015-08-01 17:05-0700\n"
+"PO-Revision-Date: 2015-08-02 08:32-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: EVNTREG.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EVNTREG.php:296 evr_admin_menu.php:10 evr_admin_menu.php:396
+#: evr_content.php:467 incl/settings.php:462
+msgid "Settings"
+msgstr "Configuración"
+
+#: EVNTREG.php:297 evr_excel.php:179
+msgid "Reports"
+msgstr "Informes"
+
+#: EVNTREG.php:298
+msgid "Categories"
+msgstr "Categorías"
+
+#: EVNTREG.php:299 evr_admin_menu.php:11 evr_admin_menu.php:397
+#: evr_content.php:469 payments/evr_admin_payments-event_list.php:27
+msgid "Events"
+msgstr "Eventos"
+
+#: EVNTREG.php:300 event/evr_event_listing.php:167
+msgid "Questions"
+msgstr "Preguntas"
+
+#: EVNTREG.php:301 attendee/evr_admin_attendee_edit.php:75
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102 event/evr_event_listing.php:174
+msgid "Attendees"
+msgstr "Asistentes"
+
+#: EVNTREG.php:302 payments/evr_admin_payments-event_list.php:158
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+msgid "Payments"
+msgstr "Pagos"
+
+#: EVNTREG.php:303
+msgid "Register Plugin"
+msgstr "Plugin de registro"
+
+#: EVNTREG.php:304
+msgid "Remove Old Data"
+msgstr "Eliminar datos antiguos"
+
+#: EVNTREG.php:305
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: EVNTREG.php:330 EVNTREG.php:347
+msgid "Dashboard"
+msgstr "Panel de Control"
+
+#: EVNTREG.php:348
+msgid "Facebook"
+msgstr "Facebook"
+
+#: attendee/evr_admin_attendee_add.php:11
+#: attendee/evr_admin_attendee_edit.php:24
+#: attendee/evr_admin_attendee_listing.php:11
+#: attendee/evr_admin_attendee_view.php:33
+msgid "Attendee Management"
+msgstr "Asistente gestión"
+
+#: attendee/evr_admin_attendee_add.php:17
+msgid "Add Attendee:"
+msgstr "Añadir el asistente:"
+
+#: attendee/evr_admin_attendee_add.php:22
+#: attendee/evr_admin_attendee_edit.php:40
+#: public/evr_public-confirmation.php:209 public/evr_public-form.php:147
+msgid "First Name"
+msgstr "Primer nombre"
+
+#: attendee/evr_admin_attendee_add.php:23
+#: attendee/evr_admin_attendee_edit.php:41
+#: public/evr_public-confirmation.php:213 public/evr_public-form.php:148
+msgid "Last Name"
+msgstr "Apellido"
+
+#: attendee/evr_admin_attendee_add.php:24
+#: attendee/evr_admin_attendee_edit.php:42 public/evr_public-form.php:149
+msgid "Email Address"
+msgstr "Dirección de Correo Electrónico"
+
+#: attendee/evr_admin_attendee_add.php:26
+#: attendee/evr_admin_attendee_edit.php:44 event/evr_event_edit.php:436
+#: event/evr_event_new.php:377 public/evr_public-form.php:151
+msgid "Phone Number"
+msgstr "Numero de Teléfono"
+
+#: attendee/evr_admin_attendee_add.php:29
+#: attendee/evr_admin_attendee_edit.php:47
+msgid "Address"
+msgstr "Direccción"
+
+#: attendee/evr_admin_attendee_add.php:32
+#: attendee/evr_admin_attendee_edit.php:50 event/evr_event_edit.php:259
+#: event/evr_event_edit.php:296 event/evr_event_edit.php:433
+#: event/evr_event_new.php:230 event/evr_event_new.php:267
+#: event/evr_event_new.php:374 public/evr_public-form.php:157
+msgid "City"
+msgstr "Ciudad"
+
+#: attendee/evr_admin_attendee_add.php:35
+#: attendee/evr_admin_attendee_edit.php:53
+msgid "State/Province"
+msgstr "Departamento/Estado"
+
+#: attendee/evr_admin_attendee_add.php:38
+#: attendee/evr_admin_attendee_edit.php:56
+msgid "Zip/Postal Code"
+msgstr "Código postal"
+
+#: attendee/evr_admin_attendee_add.php:41
+#: attendee/evr_admin_attendee_edit.php:59
+msgid "Enter coupon code for discount off primary registration?"
+msgstr "¿Ingresar código de cupón de descuento en matrícula primaria?"
+
+#: attendee/evr_admin_attendee_add.php:121
+#: attendee/evr_admin_attendee_edit.php:188 public/evr_public-form.php:337
+msgid "This event has reached registration capacity."
+msgstr "Este evento ha alcanzado capacidad de registro."
+
+#: attendee/evr_admin_attendee_add.php:123 public/evr_public-form.php:339
+msgid "Please provide your information to be placed on the waiting list."
+msgstr ""
+"Por favor proporcionar su información para ser colocado en la lista de "
+"espera."
+
+#: attendee/evr_admin_attendee_add.php:199
+msgid "SUBMIT"
+msgstr "ENVIAR"
+
+#: attendee/evr_admin_attendee_delete.php:10
+msgid "The attendee information has been successfully deleted from the event."
+msgstr ""
+"La información de los asistentes ha sido eliminada con éxito del evento."
+
+#: attendee/evr_admin_attendee_delete.php:22
+msgid ""
+"All the attendee information has been successfully deleted from the event."
+msgstr ""
+"Toda la información de los asistentes ha sido eliminada con éxito del evento."
+
+#: attendee/evr_admin_attendee_edit.php:28
+msgid "Select Another Attendee"
+msgstr "Seleccione otro asistente"
+
+#: attendee/evr_admin_attendee_edit.php:35
+msgid "Edit Attendee:"
+msgstr "Editar assistents / Editar asistentes / Edit Attendee"
+
+#: attendee/evr_admin_attendee_edit.php:104
+msgid "What type of Registration?"
+msgstr "¿Qué tipo de registro?"
+
+#: attendee/evr_admin_attendee_edit.php:271
+msgid "UPDATE"
+msgstr "﻿ACTUALIZAR"
+
+#: attendee/evr_admin_attendee_listing.php:18
+#, fuzzy
+msgid "Active Events"
+msgstr "Eventos activos"
+
+#: attendee/evr_admin_attendee_listing.php:143
+#, fuzzy
+msgid "View Attendees"
+msgstr "Veure asistents / Ver asistentes / View Attendees"
+
+#: attendee/evr_admin_attendee_listing.php:151
+#, fuzzy
+msgid "Delete All Attendees"
+msgstr "Eliminar todos los asistentes"
+
+#: attendee/evr_admin_attendee_listing.php:152
+#, fuzzy
+msgid ""
+"Are you sure you want to delete all attendees? This process is not "
+"reversable!"
+msgstr ""
+"¿Está seguro que desea eliminar a todos los asistentes? Este proceso no es "
+"reversible!"
+
+#: attendee/evr_admin_attendee_post.php:56
+#: attendee/evr_admin_attendee_update.php:60
+#, fuzzy
+msgid "The attendee has been added."
+msgstr "El asistente se ha agregado."
+
+#: attendee/evr_admin_attendee_post.php:58
+#: attendee/evr_admin_attendee_update.php:62
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The attendee was "
+"not saved!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. El asistente no se "
+"salvó!"
+
+#: attendee/evr_admin_attendee_post.php:59
+#: attendee/evr_admin_attendee_post.php:99
+#: attendee/evr_admin_attendee_update.php:63
+#: attendee/evr_admin_attendee_update.php:107
+#, fuzzy
+msgid " . . .Now returning you to attendee list . . "
+msgstr ". . . Ahora vuelve a la lista de asistentes. ."
+
+#: attendee/evr_admin_attendee_post.php:67
+#: attendee/evr_admin_attendee_update.php:71
+#, fuzzy
+msgid "Now adding extra question responses."
+msgstr "Agregar ahora respuestas para preguntas adicionales."
+
+#: attendee/evr_admin_attendee_post.php:95
+#: attendee/evr_admin_attendee_update.php:103
+#, fuzzy
+msgid "The attendee extra questions responses have been added."
+msgstr "El asistente extra preguntas las respuestas se han añadido."
+
+#: attendee/evr_admin_attendee_update.php:75
+#, fuzzy
+msgid "Now adding a question responses."
+msgstr "Ahora agregar las respuestas de una pregunta."
+
+#: attendee/evr_admin_attendee_view.php:26 event/evr_event_listing.php:136
+#: event/evr_event_listing.php:280 evr_support_functions.php:141
+#, fuzzy
+msgid "EXPIRED"
+msgstr "CURS ACABAT"
+
+#: attendee/evr_admin_attendee_view.php:28 event/evr_event_listing.php:138
+#: event/evr_event_listing.php:282 evr_support_functions.php:145
+#, fuzzy
+msgid "ACTIVE"
+msgstr "Actiu /Activo / Active"
+
+#: attendee/evr_admin_attendee_view.php:37
+#, fuzzy
+msgid "Add Attendee"
+msgstr "Agregar asistente"
+
+#: attendee/evr_admin_attendee_view.php:41
+#: payments/evr_admin_payments-case.php:87
+#, fuzzy
+msgid "Select Another Event"
+msgstr "Seleccionar otro evento"
+
+#: attendee/evr_admin_attendee_view.php:48
+#, fuzzy
+msgid "View Attendee:"
+msgstr "Vista de asistentes:"
+
+#: attendee/evr_admin_attendee_view.php:95
+#: attendee/evr_admin_attendee_view.php:100
+#: questions/evr_admin_questions-edit.php:33
+#: questions/evr_admin_questions-new.php:25
+#, fuzzy
+msgid "Type"
+msgstr "﻿Tipo"
+
+#: attendee/evr_admin_attendee_view.php:95
+#: attendee/evr_admin_attendee_view.php:100
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+#, fuzzy
+msgid "# People"
+msgstr "# Personas"
+
+#: attendee/evr_admin_attendee_view.php:95
+#: attendee/evr_admin_attendee_view.php:100
+#, fuzzy
+msgid "Registered Name"
+msgstr "Primer nombre"
+
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102
+#, fuzzy
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102
+#, fuzzy
+msgid "Phone"
+msgstr "Teléfono"
+
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102 evr_admin_category.php:234
+#: evr_admin_category.php:244 payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+#, fuzzy
+msgid "Action"
+msgstr "Acción"
+
+#: attendee/evr_admin_attendee_view.php:121 evr_admin_category.php:268
+#: questions/evr_admin_questions-reorder.php:67
+#, fuzzy
+msgid "EDIT"
+msgstr "Editar"
+
+#: attendee/evr_admin_attendee_view.php:123 evr_admin_category.php:269
+#: questions/evr_admin_questions-reorder.php:68
+#, fuzzy
+msgid "DELETE"
+msgstr "Eliminar ..."
+
+#: event/evr_event_copy.php:60 event/evr_event_post.php:111
+#, fuzzy
+msgid "The event "
+msgstr "El suceso"
+
+#: event/evr_event_copy.php:60 event/evr_event_copy.php:82
+#: event/evr_event_post.php:111
+#, fuzzy
+msgid "has been added."
+msgstr "se ha agregado."
+
+#: event/evr_event_copy.php:71
+#, fuzzy
+msgid "The questions have been added."
+msgstr "Se han añadido las preguntas."
+
+#: event/evr_event_copy.php:82
+#, fuzzy
+msgid "The cost "
+msgstr "El costo"
+
+#: event/evr_event_copy.php:86
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The cost was not "
+"saved!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. El costo no se "
+"salvó!"
+
+#: event/evr_event_copy.php:92 event/evr_event_copy.php:95
+#: event/evr_event_delete.php:23 event/evr_event_delete.php:28
+#: event/evr_event_post.php:112 event/evr_event_post.php:115
+#: event/evr_event_update.php:119 event/evr_event_update.php:123
+#, fuzzy
+msgid " . . .Now returning you to event list . . "
+msgstr ". . . Ahora vuelve a la lista de eventos. ."
+
+#: event/evr_event_copy.php:94 event/evr_event_post.php:114
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The event was not "
+"saved!"
+msgstr ""
+"Hubo un error en su solicitud, intentelo nuevamente. El evento no fue "
+"guardado!"
+
+#: event/evr_event_delete.php:10
+#, fuzzy
+msgid "There are currently "
+msgstr "Actualmente hay"
+
+#: event/evr_event_delete.php:11
+#, fuzzy
+msgid " attendes registered for this event.  The event cannot be deleted."
+msgstr "Exporte registrados para este evento.  El evento no se puede eliminar."
+
+#: event/evr_event_delete.php:12
+#, fuzzy
+msgid ". . .Now returning you to event list . . "
+msgstr ". . . Ahora vuelve a la lista de eventos. ."
+
+#: event/evr_event_delete.php:22
+#, fuzzy
+msgid "The event has been deleted."
+msgstr "El evento ha sido eliminado."
+
+#: event/evr_event_delete.php:27
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The event was not "
+"deleted!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. El evento no fue "
+"borrado!"
+
+#: event/evr_event_edit.php:16
+#, fuzzy
+msgid "EDIT EVENT: "
+msgstr "Editar evento"
+
+#: event/evr_event_edit.php:50 event/evr_event_new.php:53
+#, fuzzy
+msgid "Event Description"
+msgstr ""
+"Descripción del esdeveniment / Descripción del evento / Event Description"
+
+#: event/evr_event_edit.php:51 event/evr_event_new.php:54
+#, fuzzy
+msgid "Event Venue"
+msgstr "Lugar del Eventos"
+
+#: event/evr_event_edit.php:52 event/evr_event_new.php:55
+#, fuzzy
+msgid "Event Date/Time"
+msgstr "Fecha/hora del evento"
+
+#: event/evr_event_edit.php:53 event/evr_event_new.php:56
+#, fuzzy
+msgid "Options"
+msgstr "Opciones"
+
+#: event/evr_event_edit.php:54 event/evr_event_new.php:57
+#, fuzzy
+msgid "Coordinator"
+msgstr "Coordinador"
+
+#: event/evr_event_edit.php:55 event/evr_event_new.php:58
+#, fuzzy
+msgid "Confirmation Mail"
+msgstr "Correo de confirmación"
+
+#: event/evr_event_edit.php:65 event/evr_event_item-add.php:319
+#: event/evr_event_new.php:67
+#, fuzzy
+msgid "Use a concise but descriptive name."
+msgstr "Utilice un nombre conciso pero descriptivo."
+
+#: event/evr_event_edit.php:66 event/evr_event_new.php:68
+#, fuzzy
+msgid "Event Name/Title "
+msgstr "Primer nombre"
+
+#: event/evr_event_edit.php:73 event/evr_event_new.php:75
+#, fuzzy
+msgid "Provide a short Unique ID for this event. i.e. BOB001"
+msgstr "Proporcionar un ID único corto para este evento. es decir, BOB001"
+
+#: event/evr_event_edit.php:74 event/evr_event_new.php:76
+#, fuzzy
+msgid "Unique Event Identifier"
+msgstr "Identificador de evento único"
+
+#: event/evr_event_edit.php:82 event/evr_event_new.php:84
+#, fuzzy
+msgid ""
+"If you want the description to display under the event title on the "
+"registration form, select yes."
+msgstr ""
+"Si desea la descripción para mostrar bajo el título de evento en el "
+"formulario de registro, seleccione Sí."
+
+#: event/evr_event_edit.php:83 event/evr_event_new.php:85
+#, fuzzy
+msgid "Display description on registration form page? "
+msgstr "¿Mostrar la descripción en la página de formulario de registro?"
+
+#: event/evr_event_edit.php:84 event/evr_event_edit.php:319
+#: event/evr_event_edit.php:381 event/evr_event_edit.php:393
+#: event/evr_event_edit.php:464 event/evr_event_edit.php:521
+#: event/evr_event_edit.php:584 event/evr_event_item-add.php:140
+#: event/evr_event_item-add.php:208 event/evr_event_item-add.php:336
+#: event/evr_event_new.php:86 event/evr_event_new.php:290
+#: event/evr_event_new.php:341 event/evr_event_new.php:352
+#: event/evr_event_new.php:404 event/evr_event_new.php:460
+#: event/evr_event_new.php:538 evr_admin_category.php:66
+#: evr_admin_category.php:142 incl/settings.php:128 incl/settings.php:153
+#: incl/settings.php:165 incl/settings.php:243 incl/settings.php:295
+#: incl/settings.php:302 incl/settings.php:346 incl/settings.php:417
+#: incl/settings.php:445 incl/settings.php:456
+#: payments/evr_admin_payments-add.php:58
+#: payments/evr_admin_payments-edit.php:73 public/evr_public-form.php:216
+#, fuzzy
+msgid "Yes"
+msgstr "Si"
+
+#: event/evr_event_edit.php:85 event/evr_event_edit.php:320
+#: event/evr_event_edit.php:395 event/evr_event_edit.php:468
+#: event/evr_event_edit.php:523 event/evr_event_edit.php:588
+#: event/evr_event_item-add.php:141 event/evr_event_item-add.php:209
+#: event/evr_event_item-add.php:337 event/evr_event_new.php:87
+#: event/evr_event_new.php:291 event/evr_event_new.php:353
+#: event/evr_event_new.php:408 event/evr_event_new.php:461
+#: event/evr_event_new.php:541 evr_admin_category.php:67
+#: evr_admin_category.php:143 incl/settings.php:129 incl/settings.php:154
+#: incl/settings.php:166 incl/settings.php:244 incl/settings.php:296
+#: incl/settings.php:303 incl/settings.php:347 incl/settings.php:418
+#: incl/settings.php:446 incl/settings.php:457
+#: payments/evr_admin_payments-add.php:59
+#: payments/evr_admin_payments-edit.php:74 public/evr_public-form.php:217
+#, fuzzy
+msgid "No"
+msgstr "No"
+
+#: event/evr_event_edit.php:90
+#, fuzzy
+msgid ""
+"Provide a detailed description of the event, include key details other than "
+"when and where. Do not use any html code. This is a text only display. \n"
+"                    To create new display lines just press Enter."
+msgstr ""
+"Proporcionar una descripción detallada del evento, incluyen detalles "
+"fundamentales de Cuándo y dónde. No use cualquier código html. Se trata de "
+"una pantalla de solo texto. \n"
+"                    Para crear nueva pantalla líneas basta con presionar "
+"Enter."
+
+#: event/evr_event_edit.php:92 event/evr_event_new.php:95
+#, fuzzy
+msgid "Detailed Event Description"
+msgstr "Descripción detallada del evento"
+
+#: event/evr_event_edit.php:111 event/evr_event_new.php:117
+#, fuzzy
+msgid "Select one or many categories for an event"
+msgstr "Seleccione una o varias categorías de un evento"
+
+#: event/evr_event_edit.php:112 event/evr_event_new.php:118
+#, fuzzy
+msgid "Event Categories"
+msgstr "Categorías de Eventos"
+
+#: event/evr_event_edit.php:129
+#, fuzzy
+msgid "No Categories Created!"
+msgstr "No hay categorías creadas!"
+
+#: event/evr_event_edit.php:180 event/evr_event_new.php:135
+#, fuzzy
+msgid "EVENT VENUE"
+msgstr "Lugar del Evento"
+
+#: event/evr_event_edit.php:183 event/evr_event_new.php:139
+#, fuzzy
+msgid ""
+"Enter the number of available seats at your event venue. Leave blank if "
+"their is no limit on registrations."
+msgstr ""
+"Introduzca el número de asientos disponibles en la sede del evento. Deje en "
+"blanco si no hay límite de inscripciones."
+
+#: event/evr_event_edit.php:184 event/evr_event_new.php:140
+#, fuzzy
+msgid "Event Seating Capacity"
+msgstr "Capacidad del Evento (personas)"
+
+#: event/evr_event_edit.php:242 event/evr_event_edit.php:279
+#: event/evr_event_new.php:213 event/evr_event_new.php:250
+#, fuzzy
+msgid ""
+"Enter the name of the business or facility where the event is being held"
+msgstr ""
+"Introduzca el nombre del negocio o establecimiento donde se celebra el evento"
+
+#: event/evr_event_edit.php:243 event/evr_event_edit.php:280
+#: event/evr_event_new.php:214 event/evr_event_new.php:251
+#, fuzzy
+msgid "Event Location/Venue"
+msgstr "Ubicación/sede del evento"
+
+#: event/evr_event_edit.php:251 event/evr_event_edit.php:288
+#: event/evr_event_new.php:222 event/evr_event_new.php:259
+#, fuzzy
+msgid "Street"
+msgstr "Calle"
+
+#: event/evr_event_edit.php:262 event/evr_event_edit.php:299
+#: event/evr_event_new.php:233 event/evr_event_new.php:270
+#: public/evr_public-form.php:160
+#, fuzzy
+msgid "State"
+msgstr "Colonia"
+
+#: event/evr_event_edit.php:266 event/evr_event_edit.php:303
+#: event/evr_event_new.php:237 event/evr_event_new.php:274
+#, fuzzy
+msgid "Postcode"
+msgstr "Código postal"
+
+#: event/evr_event_edit.php:315 event/evr_event_new.php:286
+#, fuzzy
+msgid ""
+"All location information must be complete for Google Map feature to work."
+msgstr ""
+"Toda la información de ubicación se deben completar para la función de mapa "
+"de Google trabajar."
+
+#: event/evr_event_edit.php:316 event/evr_event_new.php:287
+#, fuzzy
+msgid "Use Google Maps On Registration Page"
+msgstr "Utiliza mapas de Google en la página de registro"
+
+#: event/evr_event_edit.php:337 event/evr_event_new.php:308
+#: questions/evr_admin_questions-default.php:55
+#: questions/evr_admin_questions-default.php:63
+#, fuzzy
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: event/evr_event_edit.php:345 event/evr_event_new.php:314
+#, fuzzy
+msgid "Start Time"
+msgstr "Hora d'inici"
+
+#: event/evr_event_edit.php:354 event/evr_event_new.php:321
+#, fuzzy
+msgid "End Date"
+msgstr "Fecha de fin"
+
+#: event/evr_event_edit.php:355 event/evr_event_new.php:322
+#, fuzzy
+msgid "End Time"
+msgstr "Hora de finalització"
+
+#: event/evr_event_edit.php:379 event/evr_event_new.php:339
+#, fuzzy
+msgid ""
+"If you will accept checks or cash, usually when accepting payment at event/"
+"on-site."
+msgstr ""
+"Si acepta depósitos o efectivo, generalmente al aceptar pagos en evento/en "
+"el sitio."
+
+#: event/evr_event_edit.php:380 event/evr_event_new.php:340
+#, fuzzy
+msgid "Will you accept checks/cash for this event? "
+msgstr "¿Se aceptan cheques/efectivo para este evento?"
+
+#: event/evr_event_edit.php:382 event/evr_event_new.php:342
+#, fuzzy
+msgid "No "
+msgstr "No"
+
+#: event/evr_event_edit.php:390 event/evr_event_new.php:350
+#, fuzzy
+msgid ""
+"You can point your register now button to an external registration site/page "
+"by selecting yes and entering the url!"
+msgstr ""
+"Puede señalar el botón de registro ahora a una página externa registro "
+"seleccionando yes y entrar en la url!"
+
+#: event/evr_event_edit.php:391 event/evr_event_new.php:351
+#, fuzzy
+msgid "Are you using an external registration?"
+msgstr "¿Usa un registro externo?"
+
+#: event/evr_event_edit.php:401 event/evr_event_new.php:358
+#, fuzzy
+msgid ""
+"Enter the url hyperlink to another webpage or website external registration"
+msgstr ""
+"Introduzca el hipervínculo url a otra página web o sitio web de registro "
+"externo"
+
+#: event/evr_event_edit.php:402 event/evr_event_new.php:359
+#, fuzzy
+msgid "External registration URL"
+msgstr "URL de registro externo"
+
+#: event/evr_event_edit.php:410 event/evr_event_new.php:367
+#, fuzzy
+msgid ""
+"Select the default fields for the registration form.  Note that name and "
+"email or not optional"
+msgstr ""
+"Seleccione los campos por defecto para el formulario de inscripción.  Tenga "
+"en cuenta ese nombre y un correo electrónico o no opcional"
+
+#: event/evr_event_edit.php:411 event/evr_event_new.php:368
+#, fuzzy
+msgid "Default Registration Information (Name and Email Required)"
+msgstr "Información de registro predeterminado (nombre y Email requerido)"
+
+#: event/evr_event_edit.php:432 event/evr_event_new.php:373
+#, fuzzy
+msgid "Street Address"
+msgstr "Adreça"
+
+#: event/evr_event_edit.php:434 event/evr_event_new.php:375
+#, fuzzy
+msgid "State or Province"
+msgstr "Provincia"
+
+#: event/evr_event_edit.php:435 event/evr_event_new.php:376
+#, fuzzy
+msgid "Zip or Postal Code"
+msgstr "Zip o Código Postal"
+
+#: event/evr_event_edit.php:440 event/evr_event_new.php:381
+#, fuzzy
+msgid "Company"
+msgstr "Compañia"
+
+#: event/evr_event_edit.php:441 event/evr_event_new.php:382
+#, fuzzy
+msgid "Co. Addr"
+msgstr "Dir. emp"
+
+#: event/evr_event_edit.php:442 event/evr_event_new.php:383
+#, fuzzy
+msgid "Co. City"
+msgstr "Ciudad emp"
+
+#: event/evr_event_edit.php:443 event/evr_event_new.php:384
+#, fuzzy
+msgid "Co. State/Prov"
+msgstr "Estado emp"
+
+#: event/evr_event_edit.php:444 event/evr_event_new.php:385
+#, fuzzy
+msgid "Co. Postal"
+msgstr "C.P empr"
+
+#: event/evr_event_edit.php:458 event/evr_event_new.php:398
+#, fuzzy
+msgid "Event Waiver Options"
+msgstr "Opciones de exención de evento"
+
+#: event/evr_event_edit.php:458 event/evr_event_edit.php:488
+#: event/evr_event_new.php:398 event/evr_event_new.php:428
+#, fuzzy
+msgid "Optional"
+msgstr "Opcional"
+
+#: event/evr_event_edit.php:461 event/evr_event_new.php:401
+#, fuzzy
+msgid "Will require the person signing up to accept or decline an event waiver"
+msgstr ""
+"Requerirá a la persona que firma para arriba para aceptar o rechazar la "
+"renuncia de un evento"
+
+#: event/evr_event_edit.php:462 event/evr_event_new.php:402
+#, fuzzy
+msgid "Use event waiver?"
+msgstr "¿Renuncia de caso de uso?"
+
+#: event/evr_event_edit.php:471 event/evr_event_new.php:411
+#, fuzzy
+msgid "Enter the content for the event waiver"
+msgstr "Introduzca el contenido de la renuncia de evento"
+
+#: event/evr_event_edit.php:472 event/evr_event_new.php:412
+#, fuzzy
+msgid "Waiver Content"
+msgstr "Contenido de la renuncia"
+
+#: event/evr_event_edit.php:488 event/evr_event_new.php:428
+#, fuzzy
+msgid "Event Listing Options"
+msgstr "Opciones de listado de eventos"
+
+#: event/evr_event_edit.php:492 event/evr_event_new.php:432
+#, fuzzy
+msgid ""
+"Enter the url hyperlink to another webpage or website with more event "
+"information"
+msgstr ""
+"Introduzca el enlace al hipervínculo de otra página web o sitio web con más "
+"información de eventos"
+
+#: event/evr_event_edit.php:493 event/evr_event_new.php:433
+#, fuzzy
+msgid "More Info URL"
+msgstr "Más Info URL"
+
+#: event/evr_event_edit.php:500 event/evr_event_new.php:440
+#, fuzzy
+msgid ""
+"Enter the url to an image you would like displayed next to the event in the "
+"event listings. Size should be 150 x112"
+msgstr ""
+"Introduzca la dirección url a una imagen que quiera que aparezca junto al "
+"evento en los listados. El tamaño debe ser 150 x 112"
+
+#: event/evr_event_edit.php:501 event/evr_event_new.php:441
+#, fuzzy
+msgid "Thumbnail Image URL"
+msgstr "URL de la imagen en miniatura"
+
+#: event/evr_event_edit.php:506 event/evr_event_new.php:446
+#, fuzzy
+msgid ""
+"Enter the url of an image you wish displayed above the registration form.  "
+"The image should be no wider than 450."
+msgstr ""
+"Introduzca la url de una imagen que desea mostrar en el formulario de "
+"inscripción.  La imagen debe ser no más de 450."
+
+#: event/evr_event_edit.php:507 event/evr_event_new.php:447
+#, fuzzy
+msgid "Header Image URL"
+msgstr "URL de imagen de cabecera"
+
+#: event/evr_event_edit.php:517 event/evr_event_edit.php:561
+#: event/evr_event_new.php:457 event/evr_event_new.php:516
+#, fuzzy
+msgid "Coordinator Options"
+msgstr "Opciones de Coordinador"
+
+#: event/evr_event_edit.php:518 event/evr_event_new.php:458
+#, fuzzy
+msgid "If you want to send alerts to a unique event coordinator"
+msgstr "Si desea enviar las alertas a un coordinador de evento único"
+
+#: event/evr_event_edit.php:519 event/evr_event_new.php:459
+#, fuzzy
+msgid "Do you want to send alerts to a coordinator for this event?"
+msgstr "¿Quieres enviar alertas a un coordinador para este evento?"
+
+#: event/evr_event_edit.php:529 event/evr_event_new.php:466
+#, fuzzy
+msgid "Coordinator email:"
+msgstr "Correo electrónico Coordinador:"
+
+#: event/evr_event_edit.php:532 event/evr_event_new.php:471
+#, fuzzy
+msgid ""
+"Enter the text for the registration alert email.  This email will be sent in "
+"text format.  See User Manual for data tags."
+msgstr ""
+"Introduzca el texto para el correo de alerta.  Este e-mail será enviado en "
+"formato de texto.  Consulte el Manual del usuario para las etiquetas de "
+"datos."
+
+#: event/evr_event_edit.php:533 event/evr_event_new.php:472
+#, fuzzy
+msgid "Coordinator Registration Alert Email"
+msgstr "Correo de alerta de registro al coordinador"
+
+#: event/evr_event_edit.php:546 event/evr_event_new.php:494
+#, fuzzy
+msgid ""
+"Enter the text for the payment alert email.  This email will be sent in text "
+"format.  See User Manual for data tags."
+msgstr ""
+"Introduzca el texto para las aleras de pago por correo electrónico.  Este e-"
+"mail será enviado en formato de texto.  Consulte el Manual del usuario para "
+"las etiquetas de datos."
+
+#: event/evr_event_edit.php:547 event/evr_event_new.php:495
+#, fuzzy
+msgid "Coordinator Payment Alert Email"
+msgstr "Coordinador pago alerta correo electrónico"
+
+#: event/evr_event_edit.php:578 event/evr_event_new.php:531
+#, fuzzy
+msgid "Confirmation eMail"
+msgstr "Correo electrónico de confirmación"
+
+#: event/evr_event_edit.php:581 event/evr_event_new.php:535
+#, fuzzy
+msgid ""
+"If you have send mail option enabled in the company settings, you can "
+"override the default mail by creating a custom mail for this event."
+msgstr ""
+"Si tienes activada la opción de enviar correo en la configuración de "
+"empresa, puede reemplazar el correo por defecto mediante la creación de un "
+"correo personalizado para este evento."
+
+#: event/evr_event_edit.php:582 event/evr_event_new.php:536
+#, fuzzy
+msgid "Do you want to use a custom email for this event?"
+msgstr "¿Quiere usar un email personalizado para este evento?"
+
+#: event/evr_event_edit.php:591 event/evr_event_new.php:545
+#, fuzzy
+msgid ""
+"Enter the text for the confirmation email.  This email will be sent in text "
+"format.  See User Manual for data tags."
+msgstr ""
+"Introduzca el texto para el correo de confirmación.  Este correo electrónico "
+"se enviará en formato texto.  Ver Manual de usuario para las etiquetas de "
+"datos."
+
+#: event/evr_event_edit.php:592 event/evr_event_new.php:546
+#, fuzzy
+msgid "Custom Confirmation Email"
+msgstr "Correo electrónico de confirmación de encargo"
+
+#: event/evr_event_edit.php:608
+#, fuzzy
+msgid "Update Event"
+msgstr "Actualizar Evento"
+
+#: event/evr_event_edit.php:613 event/evr_event_new.php:569
+#, fuzzy
+msgid "Please make sure you complete each section before submitting!"
+msgstr "Por favor asegúrese de que completar cada sección antes de enviar!"
+
+#: event/evr_event_item-add.php:18 event/evr_event_item-reorder.php:53
+#: event/evr_event_listing.php:27 event/evr_event_new.php:48
+#, fuzzy
+msgid "Event Management"
+msgstr "Administrar Evento"
+
+#: event/evr_event_item-add.php:24
+#, fuzzy
+msgid "Event Items: "
+msgstr "Eventos artículos:"
+
+#: event/evr_event_item-add.php:67 event/evr_event_item-add.php:79
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+#, fuzzy
+msgid "Name"
+msgstr "Apellido"
+
+#: event/evr_event_item-add.php:68 event/evr_event_item-add.php:80
+#, fuzzy
+msgid "Price"
+msgstr "Precio"
+
+#: event/evr_event_item-add.php:69 event/evr_event_item-add.php:81
+#, fuzzy
+msgid "Start"
+msgstr "Comenzar"
+
+#: event/evr_event_item-add.php:70 event/evr_event_item-add.php:82
+#, fuzzy
+msgid "End"
+msgstr "Fin"
+
+#: event/evr_event_item-add.php:72 event/evr_event_item-add.php:84
+#, fuzzy
+msgid "Actions"
+msgstr "Acciones"
+
+#: event/evr_event_item-add.php:125
+#, fuzzy
+msgid "ADD COST/ITEM"
+msgstr "AGREGAR ELEMENTO DE COSTO"
+
+#: event/evr_event_item-add.php:129
+#, fuzzy
+msgid "RE-ARRANGE ITEMS"
+msgstr "VOLVER A ORGANIZAR ELEMENTOS"
+
+#: event/evr_event_item-add.php:135
+#, fuzzy
+msgid "COUPON CODE"
+msgstr "Código del cupón"
+
+#: event/evr_event_item-add.php:138
+#, fuzzy
+msgid ""
+"A coupon code is a promotional code you can tie to your event.  The code is "
+"valid for a discount off the total registration cost.\">\n"
+"\t       Do you want to use a coupon code for this event? "
+msgstr ""
+"Un código de cupón es un código promocional que puede atar a su evento.  El "
+"código es válido para un descuento en el costo total de inscripción\". > "
+"¿Desea utilizar un código promocional para este evento?"
+
+#: event/evr_event_item-add.php:144
+#, fuzzy
+msgid ""
+"This should be a one word code with no spaces or extra characters. Recommend "
+"ALL CAPS."
+msgstr ""
+"Este debe ser un código de una sola palabra sin espacios o caracteres "
+"adicionales. Recomendamos que todas las tapas."
+
+#: event/evr_event_item-add.php:145
+#, fuzzy
+msgid "Enter the Code"
+msgstr "Introduzca el código de"
+
+#: event/evr_event_item-add.php:147
+#, fuzzy
+msgid ""
+"Enter the amount with two decimal places.  You MUST put a - sign before the "
+"value, otherwise this will add to the total\n"
+"                     during calculations. i.e. -10.00  "
+msgstr ""
+"Introduzca el importe con dos decimales.  Usted debe poner una - señal antes "
+"del valor, en caso contrario esto agregará al total durante los cálculos. es "
+"decir,-10.00"
+
+#: event/evr_event_item-add.php:149
+#, fuzzy
+msgid "Discount amount for Coupon Code"
+msgstr "Cantidad de descuento del Código de cupón"
+
+#: event/evr_event_item-add.php:158
+#, fuzzy
+msgid "UPDATE COUPON CODE"
+msgstr "Actualizar cupón"
+
+#: event/evr_event_item-add.php:178
+#, fuzzy
+msgid "Add Event Cost/Item for "
+msgstr "Agregar evento de elemento de costo para"
+
+#: event/evr_event_item-add.php:181 event/evr_event_item-add.php:285
+#, fuzzy
+msgid ""
+"Select a Item/Cost category.  Note that category REG is used for attendance "
+"count, all others are not included in attendance count."
+msgstr ""
+"Seleccione una categoría de producto y costo.  Tenga en cuenta que categoría "
+"REG se utiliza para la cuenta de asistencia, todos los demás no están "
+"incluidos en el conteo de asistencia."
+
+#: event/evr_event_item-add.php:182 event/evr_event_item-add.php:286
+#, fuzzy
+msgid "What type of Item/Cost is this?"
+msgstr "¿Qué tipo de artículo/costo es este?"
+
+#: event/evr_event_item-add.php:184 event/evr_event_item-add.php:291
+#: event/evr_event_item-add.php:311
+#, fuzzy
+msgid "Registration Attendee"
+msgstr "Asistente de registro"
+
+#: event/evr_event_item-add.php:185 event/evr_event_item-add.php:295
+#: event/evr_event_item-add.php:312
+#, fuzzy
+msgid "Merchandise"
+msgstr "Mercancías"
+
+#: event/evr_event_item-add.php:186 event/evr_event_item-add.php:299
+#: event/evr_event_item-add.php:313
+#, fuzzy
+msgid "Discount"
+msgstr "Descuento"
+
+#: event/evr_event_item-add.php:187 event/evr_event_item-add.php:303
+#: event/evr_event_item-add.php:314
+#, fuzzy
+msgid "Workshop"
+msgstr "Taller"
+
+#: event/evr_event_item-add.php:188 event/evr_event_item-add.php:307
+#: event/evr_event_item-add.php:315
+#, fuzzy
+msgid "Meal or Food"
+msgstr "Comida o alimentos"
+
+#: event/evr_event_item-add.php:192
+#, fuzzy
+msgid "Use a concise but descriptive name. Limit is 69 Characters."
+msgstr ""
+"Utilice un nombre conciso pero descriptivo. Límite es de 69 caracteres."
+
+#: event/evr_event_item-add.php:192 event/evr_event_item-add.php:319
+#, fuzzy
+msgid "Name of Cost/Item"
+msgstr "Primer nombre"
+
+#: event/evr_event_item-add.php:196 event/evr_event_item-add.php:323
+#, fuzzy
+msgid "Provide a description of the cost/ticket."
+msgstr "Proporcionar una descripción del coste/billete."
+
+#: event/evr_event_item-add.php:196 event/evr_event_item-add.php:323
+#, fuzzy
+msgid "Description of Cost"
+msgstr "Descripción de costo"
+
+#: event/evr_event_item-add.php:200
+#, fuzzy
+msgid ""
+"Provide the number of available item/cost types per registration form. If it "
+"is a REG item, available seats will impact overall amount available. Leave "
+"blank if no limit (system will default to 25)."
+msgstr ""
+"Proporcione el número de tipos de elemento disponible/costo por inscripción. "
+"Si es un artículo REG, los lugares disponibles afectarán la cantidad total "
+"disponible. Deje en blanco si no hay límite (sistema por defecto a 25)."
+
+#: event/evr_event_item-add.php:200 event/evr_event_item-add.php:328
+#, fuzzy
+msgid "Available items/cost per registration/order?"
+msgstr "¿Artículos/costo del registro/pedido disponible?"
+
+#: event/evr_event_item-add.php:204 event/evr_event_item-add.php:332
+#, fuzzy
+msgid "VALUE/COST"
+msgstr "Costo/valor"
+
+#: event/evr_event_item-add.php:206 event/evr_event_item-add.php:334
+#, fuzzy
+msgid "Please select no for event pricing setup, select yes for free event"
+msgstr ""
+"Seleccione no para configuración de precios del evento, seleccione sí para "
+"evento gratuito"
+
+#: event/evr_event_item-add.php:207 event/evr_event_item-add.php:335
+#, fuzzy
+msgid "Will this be a free item?"
+msgstr "¿Este será un artículo libre?"
+
+#: event/evr_event_item-add.php:212 event/evr_event_item-add.php:340
+#, fuzzy
+msgid "Please select the country in which the currency format will be used"
+msgstr ""
+"Por favor seleccione el país en el cual se utilizará el formato de moneda"
+
+#: event/evr_event_item-add.php:212 event/evr_event_item-add.php:340
+#, fuzzy
+msgid "Custom Currency"
+msgstr "Moneda personalizada"
+
+#: event/evr_event_item-add.php:235 event/evr_event_item-add.php:363
+#, fuzzy
+msgid ""
+"Please enter the amount using 2 decimal point (i.e. 10.00) for the "
+"registration cost.  Use minus symbol before for discount amounts (i.e. "
+"-5.00)."
+msgstr ""
+"Introduce el importe con 2 decimales (es decir. 10.00) por el costo de "
+"inscripción.  Utilizar menos el símbolo antes para las cantidades de "
+"descuento (es decir,-5.00)."
+
+#: event/evr_event_item-add.php:236 event/evr_event_item-add.php:364
+#, fuzzy
+msgid "Item/Cost Value"
+msgstr "Item/costo valor"
+
+#: event/evr_event_item-add.php:241 event/evr_event_item-add.php:369
+#, fuzzy
+msgid "AVAILABILITY TIMES OF COST/ITEM"
+msgstr "TIEMPOS DE DISPONIBILIDAD DEL ELEMENTO DE COSTO"
+
+#: event/evr_event_item-add.php:252
+#, fuzzy
+msgid "ADD NEW COST/TICKET"
+msgstr "AÑADIR NUEVO BILLETE COSTO"
+
+#: event/evr_event_item-add.php:282
+#, fuzzy
+msgid "Edit Event Cost/Item for "
+msgstr "Editar el evento para el elemento de costo"
+
+#: event/evr_event_item-add.php:327
+#, fuzzy
+msgid ""
+"Provide the number of available item/cost types per registration form. If it "
+"is a REG item, available seats will impact overall amount available. Leave "
+"blank if no limit."
+msgstr ""
+"Proporcionar el número de tipos de coste de artículo disponible por "
+"formulario de inscripción. Si es un artículo de REG, asientos disponibles "
+"afectará el monto total disponible. Deje en blanco si no hay límite."
+
+#: event/evr_event_item-add.php:380
+#, fuzzy
+msgid "UPDATE COST/TICKET"
+msgstr "Actualizar Ticket"
+
+#: event/evr_event_item-coupon_update.php:16
+#, fuzzy
+msgid ""
+"The coupon code information has been updated.  You will now be returned to "
+"the Event Pricing Page"
+msgstr ""
+"Se ha actualizado la información del código de cupón.  Ahora regresará a la "
+"página de precios del evento"
+
+#: event/evr_event_item-coupon_update.php:19
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The coupon code "
+"changes were not saved!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. Los cambios de "
+"código de cupón no se salvaron!"
+
+#: event/evr_event_item-delete.php:13
+#, fuzzy
+msgid "The cost item/ has been deleted."
+msgstr "El tema de costo / ha sido eliminado."
+
+#: event/evr_event_item-post.php:34
+#, fuzzy
+msgid ""
+"The event cost/ticket item has been added.  You will now be taken back to "
+"the Event Pricing Page"
+msgstr ""
+"Se ha añadido el elemento de costo/ticket al evento.  Ahora regresará a la "
+"página de precios del evento"
+
+#: event/evr_event_item-post.php:38
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The event cost/"
+"ticket item was not saved!"
+msgstr ""
+"Hubo un error en su solicitud, por favor intentelo nuevamente. El elemento "
+"de costo/ticket no fue gaurdado!"
+
+#: event/evr_event_item-post.php:40 event/evr_event_item-update.php:56
+#, fuzzy
+msgid "Now taking you back . . ."
+msgstr "Ahora que regreso..."
+
+#: event/evr_event_item-reorder.php:59
+#, fuzzy
+msgid "ReOrder Event Items/Cost for display: "
+msgstr "Reordenar Partidas/Costos del evento para mostrar:"
+
+#: event/evr_event_item-reorder.php:85
+#, fuzzy
+msgid "Item Sales Begin:"
+msgstr "Inicio de los servicios incluidos:"
+
+#: event/evr_event_item-reorder.php:85
+#, fuzzy
+msgid "Item Sales End:"
+msgstr "Artículo de venta final:"
+
+#: event/evr_event_item-reorder.php:92
+#: questions/evr_admin_questions-reorder.php:91
+#, fuzzy
+msgid "Apply Changes"
+msgstr "Aplicar Cambios"
+
+#: event/evr_event_item-update.php:50
+#, fuzzy
+msgid ""
+"The event cost/ticket item has been updated.  You will now be taken back to "
+"the Event Pricing Page"
+msgstr ""
+"El elemento de costo el billete del evento ha sido actualizado.  Ahora irás "
+"atrás a la página de precios"
+
+#: event/evr_event_item-update.php:54
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The event cost/"
+"ticket item was not updated!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. No se ha "
+"actualizado el artículo de costo el billete del evento!"
+
+#: event/evr_event_listing.php:6 evr_support_functions.php:97
+#, fuzzy
+msgid "ADD EVENT"
+msgstr "Añadir Evento"
+
+#: event/evr_event_listing.php:158
+#, fuzzy
+msgid "Fees/Items"
+msgstr "Elementos de costos"
+
+#: event/evr_event_listing.php:182 event/evr_event_listing.php:183
+#: payments/evr_admin_payments-view.php:119
+#, fuzzy
+msgid "Edit"
+msgstr "Editar"
+
+#: event/evr_event_listing.php:190 event/evr_event_listing.php:191
+#, fuzzy
+msgid "Copy"
+msgstr "Copiar"
+
+#: event/evr_event_listing.php:190 event/evr_event_listing.php:191
+#, fuzzy
+msgid "Are you sure you want to copy"
+msgstr "¿Está seguro de que desea copiar?"
+
+#: event/evr_event_listing.php:198 payments/evr_admin_payments-view.php:118
+#, fuzzy
+msgid "Delete"
+msgstr "Supr"
+
+#: event/evr_event_listing.php:198
+#, fuzzy
+msgid "Are you sure you want to delete"
+msgstr "Seguro que quieres eliminar"
+
+#: event/evr_event_new.php:51
+#, fuzzy
+msgid "ADD NEW EVENT"
+msgstr "Agregar nuevo evento"
+
+#: event/evr_event_new.php:92
+#, fuzzy
+msgid ""
+"Provide a detailed description of the event, \n"
+"                    include key details other than when and where. Do not "
+"use any html code. This is a text only display.\n"
+"                    To create new display lines just press Enter."
+msgstr ""
+"Proporcionar una descripción detallada del evento, incluyen detalles "
+"fundamentales de Cuándo y dónde. No use cualquier código html. Se trata de "
+"una pantalla de solo texto.\n"
+"                    Para crear nueva pantalla líneas basta con presionar "
+"Enter."
+
+#: event/evr_event_new.php:306
+#, fuzzy
+msgid "EVENT TIMES"
+msgstr "Data i hora / Fecha y hora  / Event Times"
+
+#: event/evr_event_new.php:334
+#, fuzzy
+msgid "EVENT OPTIONS"
+msgstr "Opciones del evento"
+
+#: event/evr_event_new.php:564
+#, fuzzy
+msgid "Submit New Event"
+msgstr "Afegir no esdeveniment / Agregar  nuevo Evento / Submit New Event"
+
+#: event/evr_event_popup_pop.php:43 evr_calendar.php:573
+#: evr_event_popup_pop.php:43 public/evr_event_colorbox_pop.php:35
+#: public/evr_event_popup_pop.php:35 public/evr_public-show_event_list.php:192
+#, fuzzy
+msgid "Event Fees"
+msgstr "Precios"
+
+#: event/evr_event_update.php:118
+#, fuzzy
+msgid "The Event details saved for "
+msgstr "Los detalles del evento para"
+
+#: event/evr_event_update.php:118
+#, fuzzy
+msgid " has been updated!"
+msgstr "S'ha actualiza / Se ha actualizado / Has been updated"
+
+#: event/evr_event_update.php:122
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The event was not "
+"updated!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. El evento no se ha "
+"actualizado!"
+
+#: evr_admin_category.php:18
+#, fuzzy
+msgid "Category Management"
+msgstr "Gestión de Categorías"
+
+#: evr_admin_category.php:31
+#, fuzzy
+msgid "Manage Categories"
+msgstr "Administrar categorías"
+
+#: evr_admin_category.php:41
+#, fuzzy
+msgid "Add A Category"
+msgstr "Agregar una categoría"
+
+#: evr_admin_category.php:47 evr_admin_category.php:112
+#, fuzzy
+msgid "Category Name"
+msgstr "Primer nombre"
+
+#: evr_admin_category.php:48
+#, fuzzy
+msgid "Unique ID For Category"
+msgstr "Identificador único para la categoría"
+
+#: evr_admin_category.php:65
+#, fuzzy
+msgid "Do you want to display the category description on the events page?"
+msgstr ""
+"¿Quieres Mostrar la descripción de la categoría en la página de eventos?"
+
+#: evr_admin_category.php:68 evr_admin_category.php:145
+#, fuzzy
+msgid "Category Description"
+msgstr "Descripción de categoria"
+
+#: evr_admin_category.php:78 evr_admin_category.php:155
+#, fuzzy
+msgid "Add Category"
+msgstr "Añadir Categoría"
+
+#: evr_admin_category.php:106
+#, fuzzy
+msgid "Edit Category"
+msgstr "Editar Categoría"
+
+#: evr_admin_category.php:113
+#, fuzzy
+msgid "Unique Category Identifier"
+msgstr "Identificador único de categoría"
+
+#: evr_admin_category.php:141
+#, fuzzy
+msgid "Do you want to display the event description on the events page?"
+msgstr "¿Quieres Mostrar la descripción del evento en la página de eventos?"
+
+#: evr_admin_category.php:176
+#, fuzzy
+msgid "The category has been added."
+msgstr "Se ha añadido la categoría."
+
+#: evr_admin_category.php:178
+#, fuzzy
+msgid "The category was not saved."
+msgstr "No se salvó la categoría."
+
+#: evr_admin_category.php:201
+#, fuzzy
+msgid "The category has been updated."
+msgstr "Se ha actualizado la categoría."
+
+#: evr_admin_category.php:203
+#, fuzzy
+msgid "The category was not updated."
+msgstr "La categoría no fue actualizada."
+
+#: evr_admin_category.php:216
+#, fuzzy
+msgid "The category has been successfully deleted."
+msgstr "La categoría se ha eliminado con éxito."
+
+#: evr_admin_category.php:223
+#, fuzzy
+msgid "Current Categories"
+msgstr "Categorías actuales"
+
+#: evr_admin_category.php:228 evr_admin_category.php:238
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#: evr_admin_category.php:229 evr_admin_category.php:239
+#, fuzzy
+msgid "Name "
+msgstr "Apellido"
+
+#: evr_admin_category.php:230 evr_admin_category.php:240
+#, fuzzy
+msgid "Identifier"
+msgstr "Identificador"
+
+#: evr_admin_category.php:231 evr_admin_category.php:241
+#: questions/evr_admin_questions-default.php:57
+#: questions/evr_admin_questions-default.php:65
+#, fuzzy
+msgid "Description"
+msgstr "Descripción"
+
+#: evr_admin_category.php:232 evr_admin_category.php:242
+#, fuzzy
+msgid "Display Description"
+msgstr "Mostrar descripción"
+
+#: evr_admin_category.php:233 evr_admin_category.php:243
+#, fuzzy
+msgid "Shortcode"
+msgstr "Atajo"
+
+#: evr_admin_category.php:269
+#, fuzzy
+msgid "Are you sure you want to delete category?"
+msgstr "¿Está seguro que desea eliminar la categoría?"
+
+#: evr_admin_category.php:273
+#, fuzzy
+msgid "No Record Found!"
+msgstr "No hay registros"
+
+#: evr_admin_export.php:308 evr_excel.php:171
+#, fuzzy
+msgid "This Is Not A Valid Selection!"
+msgstr "Esto no es una selección válida!"
+
+#: evr_admin_menu.php:127
+#, fuzzy
+msgid "Attendee Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:128 evr_admin_menu.php:133 evr_admin_menu.php:138
+#: evr_admin_menu.php:143 evr_admin_menu.php:148 evr_admin_menu.php:153
+#: evr_admin_menu.php:158
+#, fuzzy
+msgid "Version:"
+msgstr "Versión:"
+
+#: evr_admin_menu.php:132
+#, fuzzy
+msgid "Event Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:137
+#, fuzzy
+msgid "Question Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:142
+#, fuzzy
+msgid "Answer Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:147
+#, fuzzy
+msgid "Category Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:152
+#, fuzzy
+msgid "Cost Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:157
+#, fuzzy
+msgid "Payment Table Name:"
+msgstr "Primer nombre"
+
+#: evr_admin_menu.php:173
+#, fuzzy
+msgid ""
+"You upgraded from a previous version of Event Registration.  All existing "
+"data has been imported.  Please verify data before deleting old tables!"
+msgstr ""
+"Se actualizó desde una versión anterior del registro de eventos.  Todos los "
+"datos existentes se ha importado.  Por favor verifique los datos antes de "
+"eliminar viejas tablas!"
+
+#: evr_calendar.php:46 evr_calendar.php:53 evr_calendar.php:81
+#, fuzzy
+msgid "Jan"
+msgstr "Ene"
+
+#: evr_calendar.php:48
+#, fuzzy
+msgid "Feb"
+msgstr "Feb"
+
+#: evr_calendar.php:51 evr_calendar.php:77 evr_calendar.php:79
+#, fuzzy
+msgid "Dec"
+msgstr "Dic"
+
+#: evr_calendar.php:75
+#, fuzzy
+msgid "Nov"
+msgstr "Nov"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Sun"
+msgstr "Dom"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Mon"
+msgstr "Lun"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Tue"
+msgstr "Mar"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Wed"
+msgstr "Mie"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Thu"
+msgstr "Jue"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Fri"
+msgstr "Vie"
+
+#: evr_calendar.php:209 evr_calendar.php:212
+#, fuzzy
+msgid "Sat"
+msgstr "Sab"
+
+#: evr_calendar.php:214 evr_calendar.php:280 evr_three_cal.php:55
+#: evr_three_cal.php:121
+#, fuzzy
+msgid "January"
+msgstr "Enero"
+
+#: evr_calendar.php:214 evr_calendar.php:281 evr_three_cal.php:55
+#: evr_three_cal.php:122
+#, fuzzy
+msgid "February"
+msgstr "Febrero"
+
+#: evr_calendar.php:214 evr_calendar.php:282 evr_three_cal.php:55
+#: evr_three_cal.php:123
+#, fuzzy
+msgid "March"
+msgstr "Marzo"
+
+#: evr_calendar.php:214 evr_calendar.php:283 evr_three_cal.php:55
+#: evr_three_cal.php:124
+#, fuzzy
+msgid "April"
+msgstr "Abril"
+
+#: evr_calendar.php:214 evr_calendar.php:284 evr_three_cal.php:55
+#: evr_three_cal.php:125
+#, fuzzy
+msgid "May"
+msgstr "May"
+
+#: evr_calendar.php:214 evr_calendar.php:285 evr_three_cal.php:55
+#: evr_three_cal.php:126
+#, fuzzy
+msgid "June"
+msgstr "Junio"
+
+#: evr_calendar.php:214 evr_calendar.php:286 evr_three_cal.php:55
+#: evr_three_cal.php:127
+#, fuzzy
+msgid "July"
+msgstr "Julio"
+
+#: evr_calendar.php:214 evr_calendar.php:287 evr_three_cal.php:55
+#: evr_three_cal.php:128
+#, fuzzy
+msgid "August"
+msgstr "Agosto"
+
+#: evr_calendar.php:214 evr_calendar.php:288 evr_three_cal.php:55
+#: evr_three_cal.php:129
+#, fuzzy
+msgid "September"
+msgstr "Septiembre"
+
+#: evr_calendar.php:214 evr_calendar.php:289 evr_three_cal.php:55
+#: evr_three_cal.php:130
+#, fuzzy
+msgid "October"
+msgstr "Octubre"
+
+#: evr_calendar.php:214 evr_calendar.php:290 evr_three_cal.php:55
+#: evr_three_cal.php:131
+#, fuzzy
+msgid "November"
+msgstr "Noviembre"
+
+#: evr_calendar.php:214 evr_calendar.php:291 evr_three_cal.php:55
+#: evr_three_cal.php:132
+#, fuzzy
+msgid "December"
+msgstr "Diciembre"
+
+#: evr_calendar.php:279 evr_three_cal.php:120
+#, fuzzy
+msgid "Month"
+msgstr "Mes"
+
+#: evr_calendar.php:293 evr_three_cal.php:134
+#, fuzzy
+msgid "Year"
+msgstr "Año"
+
+#: evr_calendar.php:318 evr_three_cal.php:156
+#, fuzzy
+msgid "Go"
+msgstr "Ir"
+
+#: evr_calendar.php:552 public/evr_event_colorbox_pop.php:17
+#: public/evr_event_popup_pop.php:17
+#, fuzzy
+msgid "Time: "
+msgstr "Hora:"
+
+#: evr_calendar.php:563 public/evr_public-form.php:58
+#: public/evr_public-show_event_list.php:183
+#, fuzzy
+msgid "Location"
+msgstr "Ubicación"
+
+#: evr_calendar.php:592 public/evr_public-form.php:138
+#, fuzzy
+msgid "Registration is closed for this event."
+msgstr "Registro cerrado para este evento."
+
+#: evr_calendar.php:594 public/evr_public-form.php:140
+#, fuzzy
+msgid "For more information or questions, please email: "
+msgstr "Para más información o preguntas, por favor correo electrónico:"
+
+#: evr_calendar.php:601 public/evr_public-form.php:78
+#, fuzzy
+msgid "MORE INFO"
+msgstr "MÁS INFORMACIÓN"
+
+#: evr_calendar.php:605
+#, fuzzy
+msgid "External Registration"
+msgstr "Registro externo"
+
+#: evr_calendar.php:610
+#, fuzzy
+msgid "REGISTER"
+msgstr "INSCRIPCIÓN"
+
+#: evr_calendar.php:746
+#, fuzzy
+msgid "all day"
+msgstr "Todo el día"
+
+#: evr_calendar.php:748
+#, fuzzy
+msgid "Between"
+msgstr "Entre"
+
+#: evr_calendar.php:758
+#, fuzzy
+msgid "No event till now!"
+msgstr "Ningún evento hasta ahora!"
+
+#: evr_clean_db.php:17 evr_clean_db.php:49
+#, fuzzy
+msgid "You must check the confirm box before continuing!"
+msgstr "Debe marcar la casilla de confirmación antes de continuar!"
+
+#: evr_clean_db.php:22
+#, fuzzy
+msgid "Are you sure you want to purge the old data from a previous version?"
+msgstr ""
+"¿Está seguro de que desea purgar los datos antiguos desde una versión "
+"anterior?"
+
+#: evr_clean_db.php:56
+#, fuzzy
+msgid "Are you sure you want to delete all Event Registratin data"
+msgstr "¿Está seguro que desea eliminar todos los datos de registro?"
+
+#: evr_clean_db.php:120
+#, fuzzy
+msgid "Now deleting data tables and options for Event Registration"
+msgstr "Ahora eliminar tablas de datos y opciones para el registro de evento"
+
+#: evr_clean_db.php:123
+#, fuzzy
+msgid "All Event Registration Data Tables and Options have been deleted!"
+msgstr ""
+"Se han eliminado todas las tablas de datos de registro de eventos y opciones!"
+
+#: evr_clean_db.php:136
+#, fuzzy
+msgid ""
+"Now deleting old data tables and options from previous version of Event "
+"Registration"
+msgstr ""
+"Ahora eliminar viejas tablas de datos y opciones de la versión anterior del "
+"registro de eventos"
+
+#: evr_clean_db.php:209
+#, fuzzy
+msgid ""
+"All previous version Event Registration Data Tables and Options have been "
+"deleted!"
+msgstr ""
+"Se han eliminado todas las tablas de datos de registro de evento anterior de "
+"versión y opciones!"
+
+#: evr_company.php:7
+#, fuzzy
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: evr_company.php:27 evr_company.php:45 evr_company.php:63 evr_company.php:77
+#: evr_company.php:91
+#, fuzzy
+msgid "Configuration settings saved to options"
+msgstr "Guardado a las opciones de configuración"
+
+#: evr_company.php:30 evr_company.php:48 evr_company.php:66 evr_company.php:80
+#: evr_company.php:94
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The configuration "
+"data was not updated!"
+msgstr ""
+"Hubo un error en su solicitud, por favor intentelo nuevamente. Los datos de "
+"configuración no se actualizarón."
+
+#: evr_company.php:32 evr_company.php:50 evr_company.php:68 evr_company.php:82
+#: evr_company.php:96
+#, fuzzy
+msgid " . . .Now refreshing configuration settings . . "
+msgstr ". . .Refrescando opciones de configuración. ."
+
+#: evr_company.php:144 evr_company.php:153 evr_company.php:162
+#: evr_company.php:171 evr_company.php:180
+#, fuzzy
+msgid ""
+"You must click the Save Changes button at the bottom of this tab for changes "
+"on this tab to take effect."
+msgstr ""
+"Debe hacer clic en el botón de guardar cambios en la parte inferior de esta "
+"pestaña para cambios en esta ficha para tener efecto."
+
+#: evr_company.php:148 evr_company.php:157 evr_company.php:166
+#: evr_company.php:175 evr_company.php:184
+#, fuzzy
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: evr_content.php:45
+#, fuzzy
+msgid ""
+"Please check your registration confirmation email for payment information. "
+"Click the link provided in the registration confirmation email."
+msgstr ""
+"Por favor revise su correo electrónico de confirmación de registro para "
+"información de pago. Haga clic en el enlace proporcionado en el e-mail de "
+"confirmación de registro."
+
+#: evr_content.php:55 public/evr_public-return_to_pay.php:39
+#, fuzzy
+msgid "Payment Page for"
+msgstr "Página de pago para"
+
+#: evr_content.php:55
+#, fuzzy
+msgid "for "
+msgstr "para"
+
+#: evr_content.php:90 public/evr_public-return_to_pay.php:75
+#, fuzzy
+msgid "Payments Received:"
+msgstr "Pagos recibidos:"
+
+#: evr_content.php:93 public/evr_public-return_to_pay.php:78
+#, fuzzy
+msgid "Payment"
+msgstr "Pago"
+
+#: evr_content.php:98 public/evr_public-return_to_pay.php:83
+#, fuzzy
+msgid "Total Outstanding Payment Due*:"
+msgstr "Total pago excepcional debida *:"
+
+#: evr_content.php:105 payments/evr_admin_payments-view.php:124
+#: public/evr_public-return_to_pay.php:90
+#, fuzzy
+msgid "No Payments Received!"
+msgstr "No hay pagos recibidos!"
+
+#: evr_content.php:107 public/evr_public-return_to_pay.php:92
+#, fuzzy
+msgid "Total Payment Due*:"
+msgstr "Vencimiento pago total *:"
+
+#: evr_content.php:111 public/evr_public-return_to_pay.php:96
+#, fuzzy
+msgid ""
+"*Payments could take several days to post to this page. Please check back in "
+"several days if you made a payment and your payment is not showing at this "
+"time."
+msgstr ""
+"* Los pagos podrían tardar varios días en publicarse en esta página. Por "
+"favor revisa en unos días después de realzar el pago para comprobar si ha "
+"cambiado el estado."
+
+#: evr_content.php:428
+#, fuzzy
+msgid "Attendee List for "
+msgstr "Lista de asistentes para"
+
+#: evr_install.php:604 evr_install.php:638 evr_install.php:713
+#: evr_install.php:752 evr_install.php:808
+#, fuzzy
+msgid "Success Updating table - "
+msgstr "Éxito en tabla de Actualización -"
+
+#: evr_install.php:607 evr_install.php:641 evr_install.php:716
+#: evr_install.php:755 evr_install.php:811
+#, fuzzy
+msgid "Failure Updating table - "
+msgstr "Fallo en tabla de actualización-"
+
+#: evr_support_functions.php:8
+#, fuzzy
+msgid ""
+"<a href =\"admin.php?page=event-registration/EVNTREG.php\"><b> EVENTS "
+"REGISTRATION DASHBOARD</b></a>"
+msgstr ""
+"<a href=\"admin.php?page=event-registration/EVNTREG.php\"><b>PANEL DE "
+"REGISTRO DE EVENTOS</b></a>"
+
+#: evr_support_functions.php:14
+#, fuzzy
+msgid ""
+"If you find this plugin useful, please contribute to enable its continued "
+"development!"
+msgstr ""
+"Si encuentra útil este plugin, por favor contribuyan para permitir su "
+"constante desarrollo."
+
+#: evr_support_functions.php:342
+#, fuzzy
+msgid "Software Registration - Event Registration for Wordpress"
+msgstr "Registro de software - registro de evento para Wordpress"
+
+#: evr_support_functions.php:388
+#, fuzzy
+msgid "The Event Registration software is registered!"
+msgstr "El software de registro de eventos está registrado!"
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+#, fuzzy
+msgid "S"
+msgstr "S"
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+#, fuzzy
+msgid "M"
+msgstr "M"
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+#, fuzzy
+msgid "T"
+msgstr "T"
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+#, fuzzy
+msgid "W"
+msgstr "W"
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+#, fuzzy
+msgid "F"
+msgstr "F"
+
+#: incl/settings.php:50
+#, fuzzy
+msgid "Company Name:"
+msgstr "Primer nombre"
+
+#: incl/settings.php:54
+#, fuzzy
+msgid "Company Street 1:"
+msgstr "Calle 1 de la empresa:"
+
+#: incl/settings.php:58
+#, fuzzy
+msgid "Company Street 2:"
+msgstr "Calle 2 de la empresa:"
+
+#: incl/settings.php:62
+#, fuzzy
+msgid "Company City:"
+msgstr "Ciudad de la empresa:"
+
+#: incl/settings.php:66
+#, fuzzy
+msgid "Company State:"
+msgstr "Estado de la empresa:"
+
+#: incl/settings.php:70
+#, fuzzy
+msgid "Company Postal Code:"
+msgstr "Código Postal de la empresa:"
+
+#: incl/settings.php:74
+#, fuzzy
+msgid "Primary contact email:"
+msgstr "Correo de contacto principal:"
+
+#: incl/settings.php:88
+#, fuzzy
+msgid "Attention"
+msgstr "Atención"
+
+#: incl/settings.php:89
+#, fuzzy
+msgid "These settings must be configured for the plugin to function correctly."
+msgstr ""
+"Estos ajustes deben estar configurados para que el plugin funcione "
+"correctamente."
+
+#: incl/settings.php:91
+#, fuzzy
+msgid "Main registration page"
+msgstr ""
+"Pàgina de registre principal: / Página de registro principal: / Main "
+"registration page:"
+
+#: incl/settings.php:94 incl/settings.php:107
+#, fuzzy
+msgid "Main page"
+msgstr "Página Principal / Página Principal / Main page"
+
+#: incl/settings.php:101
+#, fuzzy
+msgid "(This page should contain the "
+msgstr "(Esta página debe contener el"
+
+#: incl/settings.php:101
+#, fuzzy
+msgid " <strong>[EVR_EVENTS]</strong> "
+msgstr "<strong>[EVR_EVENTS]</strong>"
+
+#: incl/settings.php:101
+#, fuzzy
+msgid ""
+"shortcode. This page should be public and can be hidden from navigation, if "
+"desired.)"
+msgstr ""
+"código corto. Esta página debe ser pública y se puede ocultar de la "
+"navegación, si se desea)"
+
+#: incl/settings.php:105
+#, fuzzy
+msgid "Return URL for Payments"
+msgstr "Dirección URL de retorno para los pagos"
+
+#: incl/settings.php:111
+#, fuzzy
+msgid "(This page will contain the "
+msgstr "(Esta página contendrá el"
+
+#: incl/settings.php:111
+#, fuzzy
+msgid " <strong>EVR_PAYMENT</strong> "
+msgstr "<strong>EVR_PAYMENT</strong>"
+
+#: incl/settings.php:111
+#, fuzzy
+msgid "payment shortcode. This page should public and hidden from navigation.)"
+msgstr "código de pago. Esta página debe públicos y ocultos de la navegación.)"
+
+#: incl/settings.php:118
+#, fuzzy
+msgid "Select how the events will be listed on Event Listing Page"
+msgstr ""
+"Seleccione cómo se mostrará los eventos en la página de listado de eventos"
+
+#: incl/settings.php:119
+#, fuzzy
+msgid "PopUp Window"
+msgstr "Ventana emergente"
+
+#: incl/settings.php:120
+#, fuzzy
+msgid "Accordian List"
+msgstr "Lista de acordeón"
+
+#: incl/settings.php:121
+#, fuzzy
+msgid "Link Only"
+msgstr "Vínculo únicamente"
+
+#: incl/settings.php:127
+#, fuzzy
+msgid "Use Captcha on registration form?"
+msgstr "¿Usar Captcha en el formulario?"
+
+#: incl/settings.php:134
+#, fuzzy
+msgid "CSS Overrides for registration form?"
+msgstr "¿CSS reemplaza el formulario de inscripción?"
+
+#: incl/settings.php:145
+#, fuzzy
+msgid "Calendar Settings"
+msgstr "Ajustes del calendario"
+
+#: incl/settings.php:147
+#, fuzzy
+msgid "Start Day of Week"
+msgstr "Día de inicio de semana"
+
+#: incl/settings.php:149
+#, fuzzy
+msgid "Sunday"
+msgstr "Domingo"
+
+#: incl/settings.php:150
+#, fuzzy
+msgid "Monday"
+msgstr "Lunes"
+
+#: incl/settings.php:152
+#, fuzzy
+msgid "Do you want to use Category color coding?"
+msgstr "¿Desea utilizar códigos de color de categoría?"
+
+#: incl/settings.php:156
+#, fuzzy
+msgid "Select color for Calendar Display"
+msgstr "Seleccionar el color para la visualización del calendario"
+
+#: incl/settings.php:162
+#, fuzzy
+msgid ""
+"Click on each field to display the color picker. Click again to close it."
+msgstr ""
+"Haga clic en cada campo para mostrar el selector de color. Haga clic de "
+"nuevo para cerrarla."
+
+#: incl/settings.php:164
+#, fuzzy
+msgid "Do you want to use the Date selector?"
+msgstr "¿Quieres usar el selector de fecha?"
+
+#: incl/settings.php:168
+#, fuzzy
+msgid "Calender Date Selector Background Color"
+msgstr "Color de fondo de Selector de fecha de calendario"
+
+#: incl/settings.php:170 incl/settings.php:180
+#, fuzzy
+msgid "Selector Text Color"
+msgstr "Color de texto del selector"
+
+#: incl/settings.php:172 incl/settings.php:182 incl/settings.php:191
+#, fuzzy
+msgid "Black"
+msgstr "Negro"
+
+#: incl/settings.php:173 incl/settings.php:183 incl/settings.php:192
+#, fuzzy
+msgid "White"
+msgstr "Blanco"
+
+#: incl/settings.php:176
+#, fuzzy
+msgid "Calender Day Header Background Color"
+msgstr "Color de fondo de encabezado de calendario día"
+
+#: incl/settings.php:185
+#, fuzzy
+msgid "Current Day Background Color"
+msgstr "Color de fondo actual día"
+
+#: incl/settings.php:189
+#, fuzzy
+msgid "Current Day Text Color"
+msgstr "Color de texto del Día actual"
+
+#: incl/settings.php:194
+#, fuzzy
+msgid "Description Pop Border Color"
+msgstr "Descripción Pop Color del borde"
+
+#: incl/settings.php:204
+#, fuzzy
+msgid "Will you accept checks/cash?"
+msgstr "¿Aceptan depósitos/efectivo?"
+
+#: incl/settings.php:211
+#, fuzzy
+msgid "Will you accept donations?"
+msgstr "¿Se aceptan donaciones?"
+
+#: incl/settings.php:219
+#, fuzzy
+msgid "Currency Format:"
+msgstr "Formato de moneda"
+
+#: incl/settings.php:243
+#, fuzzy
+msgid "Do you want to charge sales tax?"
+msgstr "¿Quieres cobrar impuesto de ventas?"
+
+#: incl/settings.php:245
+#, fuzzy
+msgid "(This option must be enable to charge sales tax)"
+msgstr "(Esta opción deberá permitir cobrar impuesto a las ventas)"
+
+#: incl/settings.php:246
+#, fuzzy
+msgid "Sales Tax Rate: "
+msgstr "Impuestos"
+
+#: incl/settings.php:246
+#, fuzzy
+msgid "(must be decimal, i.e. .085 )"
+msgstr "(debe ser en decimal, es decir,.085)"
+
+#: incl/settings.php:250
+#, fuzzy
+msgid "Payment Message on Confirmation Screen"
+msgstr "Mensaje en la pantalla de confirmación de pago"
+
+#: incl/settings.php:253 public/evr_public-payment.php:212
+#: public/evr_public-payment.php:435
+#, fuzzy
+msgid ""
+"To pay online, please select the Payment button to be taken to our payment "
+"vendor's site."
+msgstr "Click para pago en línea"
+
+#: incl/settings.php:256
+#, fuzzy
+msgid "Payment Button Text"
+msgstr "Texto del botón de pago"
+
+#: incl/settings.php:257
+#, fuzzy
+msgid "PAY NOW"
+msgstr "Pagar Ahora"
+
+#: incl/settings.php:261
+#, fuzzy
+msgid "Payment Gateway Provider:"
+msgstr "Proveedor de la pasarela de pago:"
+
+#: incl/settings.php:284
+#, fuzzy
+msgid "Enter your Authorize.Net API Login ID"
+msgstr "Ingrese su ID de inicio de sesión de Authorize.Net API"
+
+#: incl/settings.php:288
+#, fuzzy
+msgid "Authorized.Net Txn Key"
+msgstr "Authorized.Net Txn clave"
+
+#: incl/settings.php:293
+#, fuzzy
+msgid "Authorize.net test mode"
+msgstr "Modo de prueba de Authorize.net"
+
+#: incl/settings.php:294 incl/settings.php:301 incl/settings.php:416
+#, fuzzy
+msgid "(used for testing/debug)"
+msgstr "(utilizado para la prueba/debug)"
+
+#: incl/settings.php:300
+#, fuzzy
+msgid "Use Authorize.net Sandbox"
+msgstr "Uso de Sandbox de Authorize.net"
+
+#: incl/settings.php:306
+#, fuzzy
+msgid "Enter your Sandbox Authorize.Net ID"
+msgstr "Introduzca su ID de Sandbox Authorize.Net"
+
+#: incl/settings.php:309
+#, fuzzy
+msgid "Enter your Sandbox Authorized.Net Txn Key"
+msgstr "Introduzca su clave de Txn Authorized.Net Sandbox"
+
+#: incl/settings.php:319
+#, fuzzy
+msgid "Enter your PayFast merchant ID.."
+msgstr "Ingrese su PayFast vendedor ID.."
+
+#: incl/settings.php:323
+#, fuzzy
+msgid "Enter your PayFast merchant key."
+msgstr "Introduzca su llave mercantil PayFast."
+
+#: incl/settings.php:326
+#, fuzzy
+msgid "PayFast Mode"
+msgstr "Modo de PayFast"
+
+#: incl/settings.php:329
+#, fuzzy
+msgid "Live"
+msgstr "Publicado"
+
+#: incl/settings.php:330
+#, fuzzy
+msgid "Sandbox/Test"
+msgstr "Prueba de Sandbox"
+
+#: incl/settings.php:333
+#, fuzzy
+msgid "Payfast return URL"
+msgstr "Dirección URL de retorno Payfast"
+
+#: incl/settings.php:333
+#, fuzzy
+msgid "(page you return to after making payments)"
+msgstr "(página de que retomar después de hacer los pagos)"
+
+#: incl/settings.php:336
+#, fuzzy
+msgid "Payfast cancel URL"
+msgstr "Payfast cancelar enlace"
+
+#: incl/settings.php:336
+#, fuzzy
+msgid "(page you return to for cancelled payment)"
+msgstr "(página que volver al pago cancelado)"
+
+#: incl/settings.php:339
+#, fuzzy
+msgid "Payfast ITN URL"
+msgstr "ITN Payfast URL"
+
+#: incl/settings.php:339
+#, fuzzy
+msgid "(used to process payments into the database)"
+msgstr "(utilizado para procesar pagos en la base de datos)"
+
+#: incl/settings.php:343
+#, fuzzy
+msgid "Use PayFast debug?"
+msgstr "¿Usar debug PayFast?"
+
+#: incl/settings.php:345
+#, fuzzy
+msgid "(used for debug)"
+msgstr "(usado para depuración)"
+
+#: incl/settings.php:353
+#, fuzzy
+msgid "Enter your Google Wallet merchant ID.."
+msgstr "Ingrese su vendedor Google Wallet ID.."
+
+#: incl/settings.php:357
+#, fuzzy
+msgid "Enter your Google Wallet merchant key."
+msgstr "Introduzca su llave Mercantil de Google Wallet."
+
+#: incl/settings.php:364
+#, fuzzy
+msgid "Enter your MonsterPay merchant ID.."
+msgstr "Ingrese su MonsterPay vendedor ID.."
+
+#: incl/settings.php:371
+#, fuzzy
+msgid "Enter your UPAY Site ID:"
+msgstr "Introduzca su ID de sitio UPAY:"
+
+#: incl/settings.php:375
+#, fuzzy
+msgid "Enter your UPAY URL that you submit to:"
+msgstr "Introduzca su URL UPAY que usted envíe a:"
+
+#: incl/settings.php:379
+#, fuzzy
+msgid "Enter your UPAY Success URL."
+msgstr "Introduzca su URL de éxito UPAY."
+
+#: incl/settings.php:386
+#, fuzzy
+msgid "Enter your PayPal ID."
+msgstr "Entrar en ID. PayPal"
+
+#: incl/settings.php:393
+#, fuzzy
+msgid "Image URL"
+msgstr "Link de la Imagen"
+
+#: incl/settings.php:393
+#, fuzzy
+msgid "(For your logo on PayPal page)"
+msgstr "(Para su logotipo en la página de PayPal)"
+
+#: incl/settings.php:397
+#, fuzzy
+msgid "Cancel Return URL"
+msgstr "Cancelar Volver URL"
+
+#: incl/settings.php:397
+#, fuzzy
+msgid "(page you setup for cancelled payment)"
+msgstr "(página de configuración para el pago cancelado)"
+
+#: incl/settings.php:401
+#, fuzzy
+msgid "Notify URL"
+msgstr "Notificar Url"
+
+#: incl/settings.php:401
+#, fuzzy
+msgid "(used to process payments)"
+msgstr "(utilizado para procesar los pagos)"
+
+#: incl/settings.php:405
+#, fuzzy
+msgid "Return Method:"
+msgstr "Método de retorno:"
+
+#: incl/settings.php:408 incl/settings.php:411
+#, fuzzy
+msgid "GET"
+msgstr "GET"
+
+#: incl/settings.php:409 incl/settings.php:412
+#, fuzzy
+msgid "POST"
+msgstr "POST"
+
+#: incl/settings.php:416
+#, fuzzy
+msgid "Use PayPal Sandbox"
+msgstr "Usar PayPal Sandbox"
+
+#: incl/settings.php:444
+#, fuzzy
+msgid "Do you want to send Registration Confirmation emails?"
+msgstr "¿Quiere enviar correos de confirmación de registro?"
+
+#: incl/settings.php:448
+#, fuzzy
+msgid "(This option must be enable to send custom mails in events)"
+msgstr ""
+"(Esta opción se debe activar para enviar correos electrónicos personalizados "
+"en eventos)"
+
+#: incl/settings.php:449
+#, fuzzy
+msgid "Default Email Message"
+msgstr "Mensaje de correo electrónico predeterminado"
+
+#: incl/settings.php:449 incl/settings.php:463
+#, fuzzy
+msgid "Example"
+msgstr "Ejemplo"
+
+#: incl/settings.php:455
+#, fuzzy
+msgid "Do you want to send Payment Confirmation emails?"
+msgstr "¿Quieres enviar mensajes por correo de confirmación de pago?"
+
+#: incl/settings.php:460
+#, fuzzy
+msgid "Payment Message Subject"
+msgstr "Tema del mensaje de pago"
+
+#: incl/settings.php:462
+#, fuzzy
+msgid "Default Payment Received Email Message"
+msgstr "Mensaje de correo electrónico recibido de pago predeterminado"
+
+#: incl/settings.php:490
+#, fuzzy
+msgid "How many Events to list per page in admin view: "
+msgstr "¿Cuántos eventos por página en la vista de admin la lista:"
+
+#: incl/settings.php:494
+#, fuzzy
+msgid "How many Attendees to list per page in admin view: "
+msgstr "¿Cuántos asistentes lista por página en la vista de admin:"
+
+#: payments/evr_admin_payments-add.php:24
+#: payments/evr_admin_payments-edit.php:24
+#: payments/evr_admin_payments-event_list.php:20
+#: payments/evr_admin_payments-view.php:22
+#, fuzzy
+msgid "Payment Management"
+msgstr "Gestión de pagos"
+
+#: payments/evr_admin_payments-add.php:30
+#: payments/evr_admin_payments-edit.php:30
+#, fuzzy
+msgid "Add Payment:"
+msgstr "Añadir pago"
+
+#: payments/evr_admin_payments-add.php:30
+#: payments/evr_admin_payments-edit.php:30
+#, fuzzy
+msgid "Balance Owed:"
+msgstr "Saldo adeudado:"
+
+#: payments/evr_admin_payments-add.php:35
+#: payments/evr_admin_payments-edit.php:35
+#, fuzzy
+msgid "Payment Received Date"
+msgstr "Fecha de recibido el pago"
+
+#: payments/evr_admin_payments-add.php:36
+#: payments/evr_admin_payments-edit.php:36
+#, fuzzy
+msgid "Amount Paid"
+msgstr "Cantidad Pagada"
+
+#: payments/evr_admin_payments-add.php:37
+#: payments/evr_admin_payments-edit.php:37
+#, fuzzy
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+#: payments/evr_admin_payments-add.php:39
+#: payments/evr_admin_payments-edit.php:40
+#: payments/evr_admin_payments-edit.php:48
+#, fuzzy
+msgid "Full Payment"
+msgstr "Pago completo"
+
+#: payments/evr_admin_payments-add.php:40
+#: payments/evr_admin_payments-edit.php:41
+#: payments/evr_admin_payments-edit.php:49
+#, fuzzy
+msgid "Partial Payment"
+msgstr "Para el pago Parcial:"
+
+#: payments/evr_admin_payments-add.php:41
+#: payments/evr_admin_payments-edit.php:42
+#: payments/evr_admin_payments-edit.php:50
+#, fuzzy
+msgid "Deposit"
+msgstr "Depósito"
+
+#: payments/evr_admin_payments-add.php:42
+#: payments/evr_admin_payments-edit.php:43
+#: payments/evr_admin_payments-edit.php:51
+#, fuzzy
+msgid "Donation"
+msgstr "Donación"
+
+#: payments/evr_admin_payments-add.php:43
+#: payments/evr_admin_payments-edit.php:44
+#: payments/evr_admin_payments-edit.php:52
+#, fuzzy
+msgid "Modification"
+msgstr "Modification"
+
+#: payments/evr_admin_payments-add.php:44
+#: payments/evr_admin_payments-edit.php:45
+#: payments/evr_admin_payments-edit.php:53
+#, fuzzy
+msgid "Cancelation"
+msgstr "Cancelación"
+
+#: payments/evr_admin_payments-add.php:45
+#: payments/evr_admin_payments-edit.php:46
+#: payments/evr_admin_payments-edit.php:54
+#, fuzzy
+msgid "Refund"
+msgstr "Reembolso"
+
+#: payments/evr_admin_payments-add.php:47
+#: payments/evr_admin_payments-edit.php:56
+#, fuzzy
+msgid "Payment Method"
+msgstr "Modo de pago"
+
+#: payments/evr_admin_payments-add.php:48
+#: payments/evr_admin_payments-edit.php:58
+#: payments/evr_admin_payments-edit.php:63
+#, fuzzy
+msgid "Online/Credit Card"
+msgstr "Tarjeta de crédito en línea"
+
+#: payments/evr_admin_payments-add.php:49
+#: payments/evr_admin_payments-edit.php:59
+#: payments/evr_admin_payments-edit.php:64
+#, fuzzy
+msgid "Check"
+msgstr "Comprobar"
+
+#: payments/evr_admin_payments-add.php:50
+#: payments/evr_admin_payments-edit.php:60
+#: payments/evr_admin_payments-edit.php:65
+#, fuzzy
+msgid "Cash"
+msgstr "Efectivo"
+
+#: payments/evr_admin_payments-add.php:51
+#: payments/evr_admin_payments-edit.php:61
+#: payments/evr_admin_payments-edit.php:66
+#, fuzzy
+msgid "Event Credit"
+msgstr "Crédito de evento"
+
+#: payments/evr_admin_payments-add.php:53
+#: payments/evr_admin_payments-edit.php:68
+#, fuzzy
+msgid "Transaction ID"
+msgstr "ID de la Transacción"
+
+#: payments/evr_admin_payments-add.php:57
+#, fuzzy
+msgid "Do you want to send a payment received notice to the payer?"
+msgstr "¿Quiere enviar un aviso de pago recibido para el contribuyente."
+
+#: payments/evr_admin_payments-add.php:84
+#, fuzzy
+msgid "POST PAYMENT"
+msgstr "POST PAGO"
+
+#: payments/evr_admin_payments-case.php:51
+#, fuzzy
+msgid ""
+"A balance is outstanding on your event registration fees.  Please pay to "
+"complete your registration process."
+msgstr ""
+"Es un saldo excepcional de cuota de registro de su evento.  Por favor, pagar "
+"completar su proceso de registro."
+
+#: payments/evr_admin_payments-case.php:53
+#, fuzzy
+msgid "Payment Reminder"
+msgstr "Recordatorio de pago"
+
+#: payments/evr_admin_payments-case.php:74
+#, fuzzy
+msgid "Payment Reminder Notification sent to"
+msgstr "Notificación de aviso de pago enviado a"
+
+#: payments/evr_admin_payments-delete.php:10
+#, fuzzy
+msgid "The payment has been successfully deleted from the attendee."
+msgstr "El pago se ha eliminado con éxito de los asistentes."
+
+#: payments/evr_admin_payments-edit.php:72
+#, fuzzy
+msgid "Do you want to send a revised payment received notice to the payer?"
+msgstr "¿Quiere enviar un aviso de pago recibido para el contribuyente?"
+
+#: payments/evr_admin_payments-edit.php:99
+#, fuzzy
+msgid "UPDATE PAYMENT"
+msgstr "ACTUALIZACIÓN DE PAGO"
+
+#: payments/evr_admin_payments-event_list.php:137
+#, fuzzy
+msgid "EXPIRED EVENT"
+msgstr "EVENTO CADUCADO"
+
+#: payments/evr_admin_payments-event_list.php:139
+#, fuzzy
+msgid "ACTIVE EVENT"
+msgstr "EVENTO ACTIVO"
+
+#: payments/evr_admin_payments-post.php:58
+#, fuzzy
+msgid "The payment has now been added."
+msgstr "El pago ha sido añadido."
+
+#: payments/evr_admin_payments-post.php:60
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The payment was not "
+"saved!"
+msgstr ""
+"Hubo un error en su envío, por favor, inténtelo de nuevo. El pago no se "
+"salvó!"
+
+#: payments/evr_admin_payments-post.php:61
+#: payments/evr_admin_payments-update.php:63
+#, fuzzy
+msgid " . . .Now returning you to the payment section . . "
+msgstr ". . . Ahora vuelve a la sección de pago. ."
+
+#: payments/evr_admin_payments-post.php:68
+#: payments/evr_admin_payments-update.php:71
+#, fuzzy
+msgid "To make payment or view your payment information go to"
+msgstr "Para hacer el pago o ver su información de pago ir a la"
+
+#: payments/evr_admin_payments-post.php:93
+#: payments/evr_admin_payments-update.php:98
+#, fuzzy
+msgid "Payment Received Notification sent."
+msgstr "Recibido notificación de pago enviada."
+
+#: payments/evr_admin_payments-update.php:60
+#, fuzzy
+msgid "The payment has been updated."
+msgstr "El pago se ha actualizado."
+
+#: payments/evr_admin_payments-update.php:62
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The payment was not "
+"updated!"
+msgstr ""
+"Hubo un error en su solicitud, intentelo nuevamente. El pago no se ha "
+"actualizado!"
+
+#: payments/evr_admin_payments-view.php:24
+#, fuzzy
+msgid "Select A Different Event"
+msgstr "Seleccione un evento diferente"
+
+#: payments/evr_admin_payments-view.php:31
+#, fuzzy
+msgid "View Payments:"
+msgstr "Ver m&eacute;todos de pago"
+
+#: payments/evr_admin_payments-view.php:73
+#, fuzzy
+msgid "Email Payment Reminders"
+msgstr "Recordatorios de pago por correo electrónico"
+
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82 public/evr_public-form.php:313
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+#, fuzzy
+msgid "Order Detail"
+msgstr "Detalle del pedido"
+
+#: payments/evr_admin_payments-view.php:132
+#, fuzzy
+msgid "Add Payment"
+msgstr "Añadir pago"
+
+#: public/evr_event_colorbox_pop.php:6
+#, fuzzy
+msgid "Click Here to add to your Calendar Sotware - downloads an ICS file."
+msgstr ""
+"Haga clic aquí para agregar a tu software de calendario - descarga un "
+"archivo ICS."
+
+#: public/evr_public-case.php:50
+#, fuzzy
+msgid ""
+"IPN is only avialble with PAYPAL with this version of Event Reigstration"
+msgstr ""
+"IPN sólo está disponible con PAYPAL con esta versión del registro de eventos"
+
+#: public/evr_public-case.php:58
+#, fuzzy
+msgid "IPN is currently not available."
+msgstr "IPN no está disponible actualmente."
+
+#: public/evr_public-confirmation.php:14 public/evr_public-payment.php:8
+#: public/evr_public-payment.php:13 public/evr_public-return_to_pay.php:12
+#, fuzzy
+msgid "Failure - please retry!"
+msgstr "ERROR - por favor vuelva a intentarlo!"
+
+#: public/evr_public-confirmation.php:158
+#, fuzzy
+msgid "Please verify your registration details:"
+msgstr "Por favor verifique sus datos de registro:"
+
+#: public/evr_public-confirmation.php:159
+#: public/evr_public-return_to_pay.php:45
+#, fuzzy
+msgid "Event Name/Cost:"
+msgstr "Primer nombre"
+
+#: public/evr_public-confirmation.php:161
+#, fuzzy
+msgid "Registering Name:"
+msgstr "Primer nombre"
+
+#: public/evr_public-confirmation.php:162 public/evr_public-payment.php:66
+#: public/evr_public-payment.php:128 public/evr_public-payment.php:220
+#: public/evr_public-payment.php:332 public/evr_public-payment.php:390
+#: public/evr_public-payment.php:443 public/evr_public-payment.php:529
+#: public/evr_public-payment.php:655 public/evr_public-return_to_pay.php:53
+#, fuzzy
+msgid "Email Address:"
+msgstr "Dirección de correo electrónico:"
+
+#: public/evr_public-confirmation.php:163 public/evr_public-payment.php:68
+#: public/evr_public-payment.php:130 public/evr_public-payment.php:222
+#: public/evr_public-payment.php:334 public/evr_public-payment.php:392
+#: public/evr_public-payment.php:445 public/evr_public-payment.php:531
+#: public/evr_public-payment.php:657 public/evr_public-return_to_pay.php:57
+#, fuzzy
+msgid "Number of Attendees:"
+msgstr "Número de asistentes:"
+
+#: public/evr_public-confirmation.php:164 public/evr_public-payment.php:70
+#: public/evr_public-payment.php:132 public/evr_public-payment.php:224
+#: public/evr_public-payment.php:336 public/evr_public-payment.php:394
+#: public/evr_public-payment.php:447 public/evr_public-payment.php:533
+#: public/evr_public-payment.php:659 public/evr_public-return_to_pay.php:61
+#, fuzzy
+msgid "Order Details:"
+msgstr "Datos del pedido"
+
+#: public/evr_public-confirmation.php:177
+#: public/evr_public-confirmation.php:180
+#, fuzzy
+msgid "Coupon:"
+msgstr "Cupón:"
+
+#: public/evr_public-confirmation.php:180
+#, fuzzy
+msgid "Invalid Code!"
+msgstr "Código no válido!"
+
+#: public/evr_public-confirmation.php:186
+#, fuzzy
+msgid "Sales Tax:"
+msgstr "Impuestos"
+
+#: public/evr_public-confirmation.php:190
+#, fuzzy
+msgid "Event Name / Total Cost:"
+msgstr "Nombre del evento / Costo Total:"
+
+#: public/evr_public-confirmation.php:194
+#, fuzzy
+msgid "You are on the waiting list."
+msgstr "Estás en la lista de espera."
+
+#: public/evr_public-confirmation.php:197
+#, fuzzy
+msgid "You are registering for"
+msgstr "Usted está registrando para"
+
+#: public/evr_public-confirmation.php:197
+#, fuzzy
+msgid "person(s)."
+msgstr "persona (s)."
+
+#: public/evr_public-confirmation.php:197
+#, fuzzy
+msgid "Please provide the first and last name of each person:"
+msgstr "Indique el nombre y apellidos de cada persona:"
+
+#: public/evr_public-confirmation.php:209
+#, fuzzy
+msgid "Attendee"
+msgstr "Asistente / Asistente / Attendee"
+
+#: public/evr_public-confirmation.php:224
+#, fuzzy
+msgid "BACK"
+msgstr "ATRÁS"
+
+#: public/evr_public-confirmation.php:228
+#, fuzzy
+msgid "You must select at least one registration item."
+msgstr "Por favor, escoja una opción!"
+
+#: public/evr_public-confirmation.php:229
+#, fuzzy
+msgid "Please go back and select an item!"
+msgstr "Vuelve y selecciona un elemento."
+
+#: public/evr_public-confirmation.php:239
+#, fuzzy
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#: public/evr_public-form.php:46
+#, fuzzy
+msgid "Show/Hide Details"
+msgstr "Mostrar/Ocultar detalles"
+
+#: public/evr_public-form.php:51 public/evr_public-show_event_list.php:177
+#, fuzzy
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;Time: "
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp;Hora:"
+
+#: public/evr_public-form.php:154
+#, fuzzy
+msgid "Street/PO Address"
+msgstr "Adreça"
+
+#: public/evr_public-form.php:163
+#, fuzzy
+msgid "Postal/Zip Code"
+msgstr "Código Postal"
+
+#: public/evr_public-form.php:166
+#, fuzzy
+msgid "Company Name"
+msgstr "Primer nombre"
+
+#: public/evr_public-form.php:169
+#, fuzzy
+msgid "Company Address"
+msgstr "Dirección de la Compañía"
+
+#: public/evr_public-form.php:172
+#, fuzzy
+msgid "Company City"
+msgstr "Ciudad de la empresa"
+
+#: public/evr_public-form.php:175
+#, fuzzy
+msgid "Company State/Province"
+msgstr "Estado/provincia de la empresa"
+
+#: public/evr_public-form.php:178
+#, fuzzy
+msgid "Company Postal Code"
+msgstr "Código postal de la empresa"
+
+#: public/evr_public-form.php:181
+#, fuzzy
+msgid "Company Phone"
+msgstr "Teléfono de la empresa"
+
+#: public/evr_public-form.php:229
+#, fuzzy
+msgid "Enter coupon code for discount"
+msgstr "Ingresar código de cupón de descuento"
+
+#: public/evr_public-form.php:248
+#, fuzzy
+msgid "REGISTRATION FEES"
+msgstr "Cuotas de inscripción"
+
+#: public/evr_public-form.php:250
+#, fuzzy
+msgid "You must select at least one item!"
+msgstr "Por favor, escoja una opción!"
+
+#: public/evr_public-form.php:298
+#, fuzzy
+msgid "No Fees/Items available for todays date!"
+msgstr "Sin cargos / Artículos disponibles para la fecha de hoy!"
+
+#: public/evr_public-form.php:300
+#, fuzzy
+msgid "Please update fee dates!"
+msgstr "Por favor actualicen las fechas de pago!"
+
+#: public/evr_public-form.php:311
+#, fuzzy
+msgid "Registration Fees"
+msgstr "Cuotas de inscripción"
+
+#: public/evr_public-form.php:312
+#, fuzzy
+msgid "Sales Tax"
+msgstr "Impuestos"
+
+#: public/evr_public-form.php:317
+#, fuzzy
+msgid "Total   "
+msgstr "Total"
+
+#: public/evr_public-form.php:327
+#, fuzzy
+msgid "No Fees Have Been Setup For This Event!"
+msgstr "No hay cargos han sido configuración para este evento!"
+
+#: public/evr_public-form.php:329
+#, fuzzy
+msgid "Registration for this event can not be taken at this time."
+msgstr "Registro para este evento no puede ser tomado en este momento."
+
+#: public/evr_public-form.php:343
+#, fuzzy
+msgid "Put me on the waitlist."
+msgstr "Ponerme en la lista de espera."
+
+#: public/evr_public-form.php:351
+#, fuzzy
+msgid "Enter the security code as it is shown (required)"
+msgstr "Introduzca el código de seguridad como se muestra (obligatorio)"
+
+#: public/evr_public-form.php:353
+#, fuzzy
+msgid "This resource requires a Javascript enabled browser."
+msgstr "Este recurso requiere un navegador con Javascript habilitado."
+
+#: public/evr_public-form.php:360
+#, fuzzy
+msgid "Submit"
+msgstr "Enviar"
+
+#: public/evr_public-form.php:361
+#, fuzzy
+msgid "Reset"
+msgstr "Restablecer"
+
+#: public/evr_public-payment.php:61 public/evr_public-payment.php:123
+#: public/evr_public-payment.php:215 public/evr_public-payment.php:327
+#: public/evr_public-payment.php:385 public/evr_public-payment.php:438
+#: public/evr_public-payment.php:524 public/evr_public-payment.php:650
+#, fuzzy
+msgid "Order details:"
+msgstr "Datos del pedido"
+
+#: public/evr_public-payment.php:62 public/evr_public-payment.php:124
+#: public/evr_public-payment.php:216 public/evr_public-payment.php:328
+#: public/evr_public-payment.php:386 public/evr_public-payment.php:439
+#: public/evr_public-payment.php:525 public/evr_public-payment.php:651
+#, fuzzy
+msgid " Event Name/Cost:"
+msgstr "Primer nombre"
+
+#: public/evr_public-payment.php:64 public/evr_public-payment.php:126
+#: public/evr_public-payment.php:218 public/evr_public-payment.php:330
+#: public/evr_public-payment.php:388 public/evr_public-payment.php:441
+#: public/evr_public-payment.php:527 public/evr_public-payment.php:653
+#: public/evr_public-return_to_pay.php:49
+#, fuzzy
+msgid "Attendee Name:"
+msgstr "Primer nombre"
+
+#: public/evr_public-payment.php:83 public/evr_public-payment.php:144
+#: public/evr_public-payment.php:236 public/evr_public-payment.php:348
+#: public/evr_public-payment.php:406 public/evr_public-payment.php:459
+#: public/evr_public-payment.php:545 public/evr_public-payment.php:671
+#, fuzzy
+msgid "Sales Tax  "
+msgstr "Impuestos"
+
+#: public/evr_public-payment.php:87 public/evr_public-payment.php:148
+#: public/evr_public-payment.php:240 public/evr_public-payment.php:352
+#: public/evr_public-payment.php:410 public/evr_public-payment.php:463
+#: public/evr_public-payment.php:549 public/evr_public-payment.php:675
+#, fuzzy
+msgid "Total Cost:"
+msgstr "Coste total:"
+
+#: public/evr_public-payment.php:95
+#, fuzzy
+msgid "Payments will not be processed"
+msgstr "No se procesarán pagos"
+
+#: public/evr_public-payment.php:95
+#, fuzzy
+msgid "Sandbox Mode Is Active"
+msgstr "Está activado el modo Sandbox"
+
+#: public/evr_public-process_confirmation.php:83
+#, fuzzy
+msgid "Your information has been received."
+msgstr "Su información ha sido recibida."
+
+#: public/evr_public-process_confirmation.php:229
+#: public/evr_public-process_registration.php:210
+#, fuzzy
+msgid "Thank you for registering for"
+msgstr "Gracias por registrarse para"
+
+#: public/evr_public-process_confirmation.php:229
+#: public/evr_public-process_registration.php:210
+#, fuzzy
+msgid ""
+"At this time, all seats for the event have been taken.  \n"
+"    Your information has been placed on our waiting list.  \n"
+"    The waiting list is on a first come, first serve basis.  \n"
+"    You will be notified by email should a seat become available."
+msgstr ""
+"En este momento, se han tomado todos los asientos para el evento.  \n"
+"    Su información ha sido colocada en nuestra lista de espera.  \n"
+"    La lista de espera es sobre un primer vienen, primero sirven el base.  \n"
+"    Usted será notificado por correo electrónico un asiento sean disponible."
+
+#: public/evr_public-process_confirmation.php:232
+#: public/evr_public-process_registration.php:213
+#, fuzzy
+msgid "Thank You"
+msgstr "Gracias"
+
+#: public/evr_public-process_confirmation.php:255
+#, fuzzy
+msgid "A confirmation email has been sent to:"
+msgstr "Se ha enviado un correo de confirmación:"
+
+#: public/evr_public-process_confirmation.php:325
+#: public/evr_public-process_registration.php:231
+#, fuzzy
+msgid ""
+"At this time, all seats for the event have been taken.  Your information has "
+"been placed on our waiting list.  The waiting list is on a first come, first "
+"serve basis.  You will be notified by email should a seat become available."
+msgstr ""
+"En este momento, se han agotado todos los lugares disponibles para el "
+"evento. Su información ha sido puesta en la lista de espera. La lista de "
+"espera funciona en base a primero en llegar, primero en considerar.  Será "
+"notificado por correo cuando un lugar este disponible"
+
+#: public/evr_public-process_confirmation.php:334
+#: public/evr_public-process_registration.php:236
+#, fuzzy
+msgid ""
+"Registration, however, is not complete until we have received your payment."
+msgstr ""
+"Registro, sin embargo, no está completo hasta que hayamos recibido su pago."
+
+#: public/evr_public-process_confirmation.php:337
+#, fuzzy
+msgid ""
+"You may pay by check.  If you are paying by check, please mail your check "
+"today to:"
+msgstr ""
+"Usted puede pagar con cheque.  Si paga por cheque, por favor envíe por "
+"correo su cheque hoy a:"
+
+#: public/evr_public-process_confirmation.php:343
+#, fuzzy
+msgid "Reference "
+msgstr "Referencia"
+
+#: public/evr_public-process_confirmation.php:350
+#, fuzzy
+msgid "While there is no fee for this event, we gladly accept donations."
+msgstr ""
+"Mientras que no haya ninguna cuota para este evento, con mucho gusto "
+"aceptamos donaciones."
+
+#: public/evr_public-process_confirmation.php:353
+#, fuzzy
+msgid ""
+"You may donate online or by check.  If you are donating by check, please "
+"mail your check to:"
+msgstr ""
+"Usted puede donar en línea o por cheque.  Si son donar con cheque, por favor "
+"envíe su cheque a:"
+
+#: public/evr_public-process_confirmation.php:359
+#, fuzzy
+msgid "Reference: Donation - "
+msgstr "Referencia: Donación-"
+
+#: public/evr_public-process_confirmation.php:362
+#, fuzzy
+msgid ""
+"Please select the Donate button to be taken to our payment vendor's site for "
+"online-donations."
+msgstr ""
+"Seleccione el botón donar para ser llevado al sitio de nuestro proveedor "
+"pago para las donaciones en línea."
+
+#: public/evr_public-process_confirmation.php:371
+#, fuzzy
+msgid "Print Invoice"
+msgstr "Imprimir recibo"
+
+#: public/evr_public-process_registration.php:114
+#, fuzzy
+msgid "There was an error in your submission, please try again."
+msgstr "Hubo un error en su envío, por favor, inténtelo de nuevo."
+
+#: public/evr_public-process_registration.php:121
+#, fuzzy
+msgid "You're information has been received."
+msgstr "Su información ha sido recibida."
+
+#: public/evr_public-process_registration.php:239
+#, fuzzy
+msgid ""
+"You may pay online or by check.  If you are paying by check, please mail "
+"your check today to:"
+msgstr ""
+"Puede pagar en línea o con depósito. Si paga con depósito, envíe su "
+"comprobante a:"
+
+#: public/evr_public-process_registration.php:246
+#, fuzzy
+msgid ""
+"Please select the Pay Now button to be taken to our payment vendor's site "
+"for online-payment."
+msgstr ""
+"Por favor, seleccione el botón pagar ahora para ser llevado al sitio de "
+"nuestro proveedor de pago en línea."
+
+#: public/evr_public-return_to_pay.php:14
+#, fuzzy
+msgid "Please check your email for payment information."
+msgstr "Por favor revise su correo electrónico para información de pago."
+
+#: public/evr_public-return_to_pay.php:39
+#, fuzzy
+msgid "for event"
+msgstr "para el evento"
+
+#: public/evr_public-return_to_pay.php:42
+#, fuzzy
+msgid "Registration Detail Summary:"
+msgstr "Resumen de detalle de registro:"
+
+#: public/evr_public-show_event_list.php:19
+#, fuzzy
+msgid "The list of upcoming events."
+msgstr "La lista de los próximos eventos."
+
+#: public/evr_public-show_event_list.php:20
+#, fuzzy
+msgid "Click on Event Name for description/registration"
+msgstr "Haga clic en el nombre del evento para detalles y opciones de registro"
+
+#: public/evr_public-show_event_list.php:21
+#, fuzzy
+msgid "EVENT"
+msgstr "Evento"
+
+#: public/evr_public-show_event_list.php:21
+#, fuzzy
+msgid "START"
+msgstr "INICIO"
+
+#: public/evr_public-show_event_list.php:21
+#, fuzzy
+msgid "END"
+msgstr "Fin"
+
+#: questions/evr_admin_questions-button.php:7
+#, fuzzy
+msgid "Event Question Management"
+msgstr "Preguntas de Gestión de eventos"
+
+#: questions/evr_admin_questions-button.php:9
+#, fuzzy
+msgid "SELECT ANOTHER EVENT"
+msgstr "SELECCIONAR OTRO EVENTO"
+
+#: questions/evr_admin_questions-default.php:16
+#, fuzzy
+msgid "Event Questions"
+msgstr "Preguntas del evento"
+
+#: questions/evr_admin_questions-default.php:22
+#, fuzzy
+msgid "Select An Event"
+msgstr "Seleccione un evento"
+
+#: questions/evr_admin_questions-default.php:42
+#, fuzzy
+msgid "No Record Found"
+msgstr "No hay registros"
+
+#: questions/evr_admin_questions-default.php:56
+#: questions/evr_admin_questions-default.php:64
+#, fuzzy
+msgid "Event"
+msgstr "Evento"
+
+#: questions/evr_admin_questions-default.php:58
+#: questions/evr_admin_questions-default.php:66
+#, fuzzy
+msgid "Custom Questions"
+msgstr "Preguntas personalizadas"
+
+#: questions/evr_admin_questions-default.php:101
+#, fuzzy
+msgid "No Custom Questions"
+msgstr "No hay preguntas personalizadas"
+
+#: questions/evr_admin_questions-default.php:108
+#, fuzzy
+msgid "Please Create An Event First"
+msgstr "Crear un evento primero"
+
+#: questions/evr_admin_questions-delete.php:12
+#, fuzzy
+msgid "The Question has been deleted. Returning to Question Management."
+msgstr "La pregunta ha sido eliminada. Volviendo al gestor de preguntas."
+
+#: questions/evr_admin_questions-edit.php:17
+#, fuzzy
+msgid "EDIT QUESTION"
+msgstr "Editar Pregunta"
+
+#: questions/evr_admin_questions-edit.php:28
+#: questions/evr_admin_questions-new.php:20
+#, fuzzy
+msgid "Question"
+msgstr "Pregunta"
+
+#: questions/evr_admin_questions-edit.php:36
+#: questions/evr_admin_questions-new.php:27
+#, fuzzy
+msgid "Text"
+msgstr "﻿Texto"
+
+#: questions/evr_admin_questions-edit.php:37
+#: questions/evr_admin_questions-new.php:28
+#, fuzzy
+msgid "Text Area"
+msgstr "Area de texto"
+
+#: questions/evr_admin_questions-edit.php:38
+#: questions/evr_admin_questions-new.php:29
+#, fuzzy
+msgid "Single"
+msgstr "Individual"
+
+#: questions/evr_admin_questions-edit.php:39
+#: questions/evr_admin_questions-new.php:30
+#, fuzzy
+msgid "Multiple"
+msgstr "Múltiple"
+
+#: questions/evr_admin_questions-edit.php:40
+#: questions/evr_admin_questions-new.php:31
+#, fuzzy
+msgid "Drop Down"
+msgstr "Desplegable"
+
+#: questions/evr_admin_questions-edit.php:45
+#: questions/evr_admin_questions-new.php:36
+#, fuzzy
+msgid "Selections"
+msgstr "Selecciones de"
+
+#: questions/evr_admin_questions-edit.php:50
+#: questions/evr_admin_questions-new.php:42
+#, fuzzy
+msgid "Required"
+msgstr "Requerido"
+
+#: questions/evr_admin_questions-edit.php:54
+#: questions/evr_admin_questions-new.php:46
+#, fuzzy
+msgid "Remark"
+msgstr "Comentario adicional"
+
+#: questions/evr_admin_questions-edit.php:68
+#, fuzzy
+msgid "UPDATE QUESTION"
+msgstr "Actualizar pregunta"
+
+#: questions/evr_admin_questions-edit.php:76
+#, fuzzy
+msgid "Please select a question to edit!"
+msgstr "Seleccione una pregunta para editar!"
+
+#: questions/evr_admin_questions-new.php:13
+#, fuzzy
+msgid "ADD NEW QUESTION"
+msgstr "AGREGAR PREGUNTA"
+
+#: questions/evr_admin_questions-new.php:57
+#, fuzzy
+msgid "ADD QUESTION"
+msgstr "Afegir pregunta"
+
+#: questions/evr_admin_questions-post.php:13
+#, fuzzy
+msgid "The question has been added."
+msgstr "La pregunta se ha añadido."
+
+#: questions/evr_admin_questions-post.php:14
+#, fuzzy
+msgid " . . .Now returning you to Question Managment . . "
+msgstr ". . . Ahora vuelve a la gestión de la cuestión. ."
+
+#: questions/evr_admin_questions-post.php:16
+#, fuzzy
+msgid ""
+"There was an error in your submission, please try again. The question was "
+"not saved!"
+msgstr ""
+"Hubo un error en su solicitud, por favor intentelo nuevamente. La pregunta "
+"no fue guardada!"
+
+#: questions/evr_admin_questions-post.php:17
+#, fuzzy
+msgid " . . .Now returning you to Question Management . . "
+msgstr ". . . Ahora vuelve a la gestión de la cuestión. ."
+
+#: questions/evr_admin_questions-reorder.php:53
+#, fuzzy
+msgid "ReOrder Event Questions for display order: "
+msgstr "Reordenar las preguntas del evento para orden de visualización:"
+
+#: questions/evr_admin_questions-reorder.php:67
+#, fuzzy
+msgid "Drag Line Up or Down to ReArrange."
+msgstr "Arrastre la línea hacia arriba o hacia abajo para reorganizar."
+
+#: questions/evr_admin_questions-reorder.php:72
+#, fuzzy
+msgid "REQUIRED"
+msgstr "REQUERIDA"
+
+#: questions/evr_admin_questions-reorder.php:76
+#, fuzzy
+msgid "TYPE"
+msgstr "TIPO"
+
+#: questions/evr_admin_questions-reorder.php:77
+#, fuzzy
+msgid "QUESTION"
+msgstr "PREGUNTA"
+
+#: questions/evr_admin_questions-reorder.php:78
+#, fuzzy
+msgid "RESPONSES"
+msgstr "Respuestas"
+
+#. Plugin Name of the plugin/theme
+msgid "Event Registration"
+msgstr "Registro de Eventos"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.wpeventregister.com"
+msgstr "http://www.wpeventregister.com"
+
+#. Description of the plugin/theme
+msgid ""
+"This wordpress plugin is designed to run on a Wordpress webpage and provide "
+"registration for an event or class. It allows you to capture the registering "
+"persons contact information to a database and provides an association to an "
+"events database. It provides the ability to send the register to either a "
+"Paypal, Google Pay, or Authorize.net online payment site for online "
+"collection of event fees. Detailed payment management system to track and "
+"record event payments. Reporting features provide a list of events, list of "
+"attendees, and excel export."
+msgstr ""
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "David Fleming - Edge Technology Consulting"
+msgstr "David Fleming - Edge Technology Consulting"

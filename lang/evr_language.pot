@@ -1,0 +1,2692 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Registration\n"
+"POT-Creation-Date: 2015-08-01 17:02-0700\n"
+"PO-Revision-Date: 2015-08-01 17:01-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: EVNTREG.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EVNTREG.php:296 evr_admin_menu.php:10 evr_admin_menu.php:396
+#: evr_content.php:467 incl/settings.php:462
+msgid "Settings"
+msgstr ""
+
+#: EVNTREG.php:297 evr_excel.php:179
+msgid "Reports"
+msgstr ""
+
+#: EVNTREG.php:298
+msgid "Categories"
+msgstr ""
+
+#: EVNTREG.php:299 evr_admin_menu.php:11 evr_admin_menu.php:397
+#: evr_content.php:469 payments/evr_admin_payments-event_list.php:27
+msgid "Events"
+msgstr ""
+
+#: EVNTREG.php:300 event/evr_event_listing.php:167
+msgid "Questions"
+msgstr ""
+
+#: EVNTREG.php:301 attendee/evr_admin_attendee_edit.php:75
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102 event/evr_event_listing.php:174
+msgid "Attendees"
+msgstr ""
+
+#: EVNTREG.php:302 payments/evr_admin_payments-event_list.php:158
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+msgid "Payments"
+msgstr ""
+
+#: EVNTREG.php:303
+msgid "Register Plugin"
+msgstr ""
+
+#: EVNTREG.php:304
+msgid "Remove Old Data"
+msgstr ""
+
+#: EVNTREG.php:305
+msgid "Uninstall"
+msgstr ""
+
+#: EVNTREG.php:330 EVNTREG.php:347
+msgid "Dashboard"
+msgstr ""
+
+#: EVNTREG.php:348
+msgid "Facebook"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:11
+#: attendee/evr_admin_attendee_edit.php:24
+#: attendee/evr_admin_attendee_listing.php:11
+#: attendee/evr_admin_attendee_view.php:33
+msgid "Attendee Management"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:17
+msgid "Add Attendee:"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:22
+#: attendee/evr_admin_attendee_edit.php:40
+#: public/evr_public-confirmation.php:209 public/evr_public-form.php:147
+msgid "First Name"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:23
+#: attendee/evr_admin_attendee_edit.php:41
+#: public/evr_public-confirmation.php:213 public/evr_public-form.php:148
+msgid "Last Name"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:24
+#: attendee/evr_admin_attendee_edit.php:42 public/evr_public-form.php:149
+msgid "Email Address"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:26
+#: attendee/evr_admin_attendee_edit.php:44 event/evr_event_edit.php:436
+#: event/evr_event_new.php:377 public/evr_public-form.php:151
+msgid "Phone Number"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:29
+#: attendee/evr_admin_attendee_edit.php:47
+msgid "Address"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:32
+#: attendee/evr_admin_attendee_edit.php:50 event/evr_event_edit.php:259
+#: event/evr_event_edit.php:296 event/evr_event_edit.php:433
+#: event/evr_event_new.php:230 event/evr_event_new.php:267
+#: event/evr_event_new.php:374 public/evr_public-form.php:157
+msgid "City"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:35
+#: attendee/evr_admin_attendee_edit.php:53
+msgid "State/Province"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:38
+#: attendee/evr_admin_attendee_edit.php:56
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:41
+#: attendee/evr_admin_attendee_edit.php:59
+msgid "Enter coupon code for discount off primary registration?"
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:121
+#: attendee/evr_admin_attendee_edit.php:188 public/evr_public-form.php:337
+msgid "This event has reached registration capacity."
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:123 public/evr_public-form.php:339
+msgid "Please provide your information to be placed on the waiting list."
+msgstr ""
+
+#: attendee/evr_admin_attendee_add.php:199
+msgid "SUBMIT"
+msgstr ""
+
+#: attendee/evr_admin_attendee_delete.php:10
+msgid "The attendee information has been successfully deleted from the event."
+msgstr ""
+
+#: attendee/evr_admin_attendee_delete.php:22
+msgid ""
+"All the attendee information has been successfully deleted from the event."
+msgstr ""
+
+#: attendee/evr_admin_attendee_edit.php:28
+msgid "Select Another Attendee"
+msgstr ""
+
+#: attendee/evr_admin_attendee_edit.php:35
+msgid "Edit Attendee:"
+msgstr ""
+
+#: attendee/evr_admin_attendee_edit.php:104
+msgid "What type of Registration?"
+msgstr ""
+
+#: attendee/evr_admin_attendee_edit.php:271
+msgid "UPDATE"
+msgstr ""
+
+#: attendee/evr_admin_attendee_listing.php:18
+msgid "Active Events"
+msgstr ""
+
+#: attendee/evr_admin_attendee_listing.php:143
+msgid "View Attendees"
+msgstr ""
+
+#: attendee/evr_admin_attendee_listing.php:151
+msgid "Delete All Attendees"
+msgstr ""
+
+#: attendee/evr_admin_attendee_listing.php:152
+msgid ""
+"Are you sure you want to delete all attendees? This process is not "
+"reversable!"
+msgstr ""
+
+#: attendee/evr_admin_attendee_post.php:56
+#: attendee/evr_admin_attendee_update.php:60
+msgid "The attendee has been added."
+msgstr ""
+
+#: attendee/evr_admin_attendee_post.php:58
+#: attendee/evr_admin_attendee_update.php:62
+msgid ""
+"There was an error in your submission, please try again. The attendee was "
+"not saved!"
+msgstr ""
+
+#: attendee/evr_admin_attendee_post.php:59
+#: attendee/evr_admin_attendee_post.php:99
+#: attendee/evr_admin_attendee_update.php:63
+#: attendee/evr_admin_attendee_update.php:107
+msgid " . . .Now returning you to attendee list . . "
+msgstr ""
+
+#: attendee/evr_admin_attendee_post.php:67
+#: attendee/evr_admin_attendee_update.php:71
+msgid "Now adding extra question responses."
+msgstr ""
+
+#: attendee/evr_admin_attendee_post.php:95
+#: attendee/evr_admin_attendee_update.php:103
+msgid "The attendee extra questions responses have been added."
+msgstr ""
+
+#: attendee/evr_admin_attendee_update.php:75
+msgid "Now adding a question responses."
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:26 event/evr_event_listing.php:136
+#: event/evr_event_listing.php:280 evr_support_functions.php:141
+msgid "EXPIRED"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:28 event/evr_event_listing.php:138
+#: event/evr_event_listing.php:282 evr_support_functions.php:145
+msgid "ACTIVE"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:37
+msgid "Add Attendee"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:41
+#: payments/evr_admin_payments-case.php:87
+msgid "Select Another Event"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:48
+msgid "View Attendee:"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:95
+#: attendee/evr_admin_attendee_view.php:100
+#: questions/evr_admin_questions-edit.php:33
+#: questions/evr_admin_questions-new.php:25
+msgid "Type"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:95
+#: attendee/evr_admin_attendee_view.php:100
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+msgid "# People"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:95
+#: attendee/evr_admin_attendee_view.php:100
+msgid "Registered Name"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102
+msgid "Email"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102
+msgid "Phone"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:97
+#: attendee/evr_admin_attendee_view.php:102 evr_admin_category.php:234
+#: evr_admin_category.php:244 payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+msgid "Action"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:121 evr_admin_category.php:268
+#: questions/evr_admin_questions-reorder.php:67
+msgid "EDIT"
+msgstr ""
+
+#: attendee/evr_admin_attendee_view.php:123 evr_admin_category.php:269
+#: questions/evr_admin_questions-reorder.php:68
+msgid "DELETE"
+msgstr ""
+
+#: event/evr_event_copy.php:60 event/evr_event_post.php:111
+msgid "The event "
+msgstr ""
+
+#: event/evr_event_copy.php:60 event/evr_event_copy.php:82
+#: event/evr_event_post.php:111
+msgid "has been added."
+msgstr ""
+
+#: event/evr_event_copy.php:71
+msgid "The questions have been added."
+msgstr ""
+
+#: event/evr_event_copy.php:82
+msgid "The cost "
+msgstr ""
+
+#: event/evr_event_copy.php:86
+msgid ""
+"There was an error in your submission, please try again. The cost was not "
+"saved!"
+msgstr ""
+
+#: event/evr_event_copy.php:92 event/evr_event_copy.php:95
+#: event/evr_event_delete.php:23 event/evr_event_delete.php:28
+#: event/evr_event_post.php:112 event/evr_event_post.php:115
+#: event/evr_event_update.php:119 event/evr_event_update.php:123
+msgid " . . .Now returning you to event list . . "
+msgstr ""
+
+#: event/evr_event_copy.php:94 event/evr_event_post.php:114
+msgid ""
+"There was an error in your submission, please try again. The event was not "
+"saved!"
+msgstr ""
+
+#: event/evr_event_delete.php:10
+msgid "There are currently "
+msgstr ""
+
+#: event/evr_event_delete.php:11
+msgid " attendes registered for this event.  The event cannot be deleted."
+msgstr ""
+
+#: event/evr_event_delete.php:12
+msgid ". . .Now returning you to event list . . "
+msgstr ""
+
+#: event/evr_event_delete.php:22
+msgid "The event has been deleted."
+msgstr ""
+
+#: event/evr_event_delete.php:27
+msgid ""
+"There was an error in your submission, please try again. The event was not "
+"deleted!"
+msgstr ""
+
+#: event/evr_event_edit.php:16
+msgid "EDIT EVENT: "
+msgstr ""
+
+#: event/evr_event_edit.php:50 event/evr_event_new.php:53
+msgid "Event Description"
+msgstr ""
+
+#: event/evr_event_edit.php:51 event/evr_event_new.php:54
+msgid "Event Venue"
+msgstr ""
+
+#: event/evr_event_edit.php:52 event/evr_event_new.php:55
+msgid "Event Date/Time"
+msgstr ""
+
+#: event/evr_event_edit.php:53 event/evr_event_new.php:56
+msgid "Options"
+msgstr ""
+
+#: event/evr_event_edit.php:54 event/evr_event_new.php:57
+msgid "Coordinator"
+msgstr ""
+
+#: event/evr_event_edit.php:55 event/evr_event_new.php:58
+msgid "Confirmation Mail"
+msgstr ""
+
+#: event/evr_event_edit.php:65 event/evr_event_item-add.php:319
+#: event/evr_event_new.php:67
+msgid "Use a concise but descriptive name."
+msgstr ""
+
+#: event/evr_event_edit.php:66 event/evr_event_new.php:68
+msgid "Event Name/Title "
+msgstr ""
+
+#: event/evr_event_edit.php:73 event/evr_event_new.php:75
+msgid "Provide a short Unique ID for this event. i.e. BOB001"
+msgstr ""
+
+#: event/evr_event_edit.php:74 event/evr_event_new.php:76
+msgid "Unique Event Identifier"
+msgstr ""
+
+#: event/evr_event_edit.php:82 event/evr_event_new.php:84
+msgid ""
+"If you want the description to display under the event title on the "
+"registration form, select yes."
+msgstr ""
+
+#: event/evr_event_edit.php:83 event/evr_event_new.php:85
+msgid "Display description on registration form page? "
+msgstr ""
+
+#: event/evr_event_edit.php:84 event/evr_event_edit.php:319
+#: event/evr_event_edit.php:381 event/evr_event_edit.php:393
+#: event/evr_event_edit.php:464 event/evr_event_edit.php:521
+#: event/evr_event_edit.php:584 event/evr_event_item-add.php:140
+#: event/evr_event_item-add.php:208 event/evr_event_item-add.php:336
+#: event/evr_event_new.php:86 event/evr_event_new.php:290
+#: event/evr_event_new.php:341 event/evr_event_new.php:352
+#: event/evr_event_new.php:404 event/evr_event_new.php:460
+#: event/evr_event_new.php:538 evr_admin_category.php:66
+#: evr_admin_category.php:142 incl/settings.php:128 incl/settings.php:153
+#: incl/settings.php:165 incl/settings.php:243 incl/settings.php:295
+#: incl/settings.php:302 incl/settings.php:346 incl/settings.php:417
+#: incl/settings.php:445 incl/settings.php:456
+#: payments/evr_admin_payments-add.php:58
+#: payments/evr_admin_payments-edit.php:73 public/evr_public-form.php:216
+msgid "Yes"
+msgstr ""
+
+#: event/evr_event_edit.php:85 event/evr_event_edit.php:320
+#: event/evr_event_edit.php:395 event/evr_event_edit.php:468
+#: event/evr_event_edit.php:523 event/evr_event_edit.php:588
+#: event/evr_event_item-add.php:141 event/evr_event_item-add.php:209
+#: event/evr_event_item-add.php:337 event/evr_event_new.php:87
+#: event/evr_event_new.php:291 event/evr_event_new.php:353
+#: event/evr_event_new.php:408 event/evr_event_new.php:461
+#: event/evr_event_new.php:541 evr_admin_category.php:67
+#: evr_admin_category.php:143 incl/settings.php:129 incl/settings.php:154
+#: incl/settings.php:166 incl/settings.php:244 incl/settings.php:296
+#: incl/settings.php:303 incl/settings.php:347 incl/settings.php:418
+#: incl/settings.php:446 incl/settings.php:457
+#: payments/evr_admin_payments-add.php:59
+#: payments/evr_admin_payments-edit.php:74 public/evr_public-form.php:217
+msgid "No"
+msgstr ""
+
+#: event/evr_event_edit.php:90
+msgid ""
+"Provide a detailed description of the event, include key details other than "
+"when and where. Do not use any html code. This is a text only display. \n"
+"                    To create new display lines just press Enter."
+msgstr ""
+
+#: event/evr_event_edit.php:92 event/evr_event_new.php:95
+msgid "Detailed Event Description"
+msgstr ""
+
+#: event/evr_event_edit.php:111 event/evr_event_new.php:117
+msgid "Select one or many categories for an event"
+msgstr ""
+
+#: event/evr_event_edit.php:112 event/evr_event_new.php:118
+msgid "Event Categories"
+msgstr ""
+
+#: event/evr_event_edit.php:129
+msgid "No Categories Created!"
+msgstr ""
+
+#: event/evr_event_edit.php:180 event/evr_event_new.php:135
+msgid "EVENT VENUE"
+msgstr ""
+
+#: event/evr_event_edit.php:183 event/evr_event_new.php:139
+msgid ""
+"Enter the number of available seats at your event venue. Leave blank if "
+"their is no limit on registrations."
+msgstr ""
+
+#: event/evr_event_edit.php:184 event/evr_event_new.php:140
+msgid "Event Seating Capacity"
+msgstr ""
+
+#: event/evr_event_edit.php:242 event/evr_event_edit.php:279
+#: event/evr_event_new.php:213 event/evr_event_new.php:250
+msgid ""
+"Enter the name of the business or facility where the event is being held"
+msgstr ""
+
+#: event/evr_event_edit.php:243 event/evr_event_edit.php:280
+#: event/evr_event_new.php:214 event/evr_event_new.php:251
+msgid "Event Location/Venue"
+msgstr ""
+
+#: event/evr_event_edit.php:251 event/evr_event_edit.php:288
+#: event/evr_event_new.php:222 event/evr_event_new.php:259
+msgid "Street"
+msgstr ""
+
+#: event/evr_event_edit.php:262 event/evr_event_edit.php:299
+#: event/evr_event_new.php:233 event/evr_event_new.php:270
+#: public/evr_public-form.php:160
+msgid "State"
+msgstr ""
+
+#: event/evr_event_edit.php:266 event/evr_event_edit.php:303
+#: event/evr_event_new.php:237 event/evr_event_new.php:274
+msgid "Postcode"
+msgstr ""
+
+#: event/evr_event_edit.php:315 event/evr_event_new.php:286
+msgid ""
+"All location information must be complete for Google Map feature to work."
+msgstr ""
+
+#: event/evr_event_edit.php:316 event/evr_event_new.php:287
+msgid "Use Google Maps On Registration Page"
+msgstr ""
+
+#: event/evr_event_edit.php:337 event/evr_event_new.php:308
+#: questions/evr_admin_questions-default.php:55
+#: questions/evr_admin_questions-default.php:63
+msgid "Start Date"
+msgstr ""
+
+#: event/evr_event_edit.php:345 event/evr_event_new.php:314
+msgid "Start Time"
+msgstr ""
+
+#: event/evr_event_edit.php:354 event/evr_event_new.php:321
+msgid "End Date"
+msgstr ""
+
+#: event/evr_event_edit.php:355 event/evr_event_new.php:322
+msgid "End Time"
+msgstr ""
+
+#: event/evr_event_edit.php:379 event/evr_event_new.php:339
+msgid ""
+"If you will accept checks or cash, usually when accepting payment at event/"
+"on-site."
+msgstr ""
+
+#: event/evr_event_edit.php:380 event/evr_event_new.php:340
+msgid "Will you accept checks/cash for this event? "
+msgstr ""
+
+#: event/evr_event_edit.php:382 event/evr_event_new.php:342
+msgid "No "
+msgstr ""
+
+#: event/evr_event_edit.php:390 event/evr_event_new.php:350
+msgid ""
+"You can point your register now button to an external registration site/page "
+"by selecting yes and entering the url!"
+msgstr ""
+
+#: event/evr_event_edit.php:391 event/evr_event_new.php:351
+msgid "Are you using an external registration?"
+msgstr ""
+
+#: event/evr_event_edit.php:401 event/evr_event_new.php:358
+msgid ""
+"Enter the url hyperlink to another webpage or website external registration"
+msgstr ""
+
+#: event/evr_event_edit.php:402 event/evr_event_new.php:359
+msgid "External registration URL"
+msgstr ""
+
+#: event/evr_event_edit.php:410 event/evr_event_new.php:367
+msgid ""
+"Select the default fields for the registration form.  Note that name and "
+"email or not optional"
+msgstr ""
+
+#: event/evr_event_edit.php:411 event/evr_event_new.php:368
+msgid "Default Registration Information (Name and Email Required)"
+msgstr ""
+
+#: event/evr_event_edit.php:432 event/evr_event_new.php:373
+msgid "Street Address"
+msgstr ""
+
+#: event/evr_event_edit.php:434 event/evr_event_new.php:375
+msgid "State or Province"
+msgstr ""
+
+#: event/evr_event_edit.php:435 event/evr_event_new.php:376
+msgid "Zip or Postal Code"
+msgstr ""
+
+#: event/evr_event_edit.php:440 event/evr_event_new.php:381
+msgid "Company"
+msgstr ""
+
+#: event/evr_event_edit.php:441 event/evr_event_new.php:382
+msgid "Co. Addr"
+msgstr ""
+
+#: event/evr_event_edit.php:442 event/evr_event_new.php:383
+msgid "Co. City"
+msgstr ""
+
+#: event/evr_event_edit.php:443 event/evr_event_new.php:384
+msgid "Co. State/Prov"
+msgstr ""
+
+#: event/evr_event_edit.php:444 event/evr_event_new.php:385
+msgid "Co. Postal"
+msgstr ""
+
+#: event/evr_event_edit.php:458 event/evr_event_new.php:398
+msgid "Event Waiver Options"
+msgstr ""
+
+#: event/evr_event_edit.php:458 event/evr_event_edit.php:488
+#: event/evr_event_new.php:398 event/evr_event_new.php:428
+msgid "Optional"
+msgstr ""
+
+#: event/evr_event_edit.php:461 event/evr_event_new.php:401
+msgid "Will require the person signing up to accept or decline an event waiver"
+msgstr ""
+
+#: event/evr_event_edit.php:462 event/evr_event_new.php:402
+msgid "Use event waiver?"
+msgstr ""
+
+#: event/evr_event_edit.php:471 event/evr_event_new.php:411
+msgid "Enter the content for the event waiver"
+msgstr ""
+
+#: event/evr_event_edit.php:472 event/evr_event_new.php:412
+msgid "Waiver Content"
+msgstr ""
+
+#: event/evr_event_edit.php:488 event/evr_event_new.php:428
+msgid "Event Listing Options"
+msgstr ""
+
+#: event/evr_event_edit.php:492 event/evr_event_new.php:432
+msgid ""
+"Enter the url hyperlink to another webpage or website with more event "
+"information"
+msgstr ""
+
+#: event/evr_event_edit.php:493 event/evr_event_new.php:433
+msgid "More Info URL"
+msgstr ""
+
+#: event/evr_event_edit.php:500 event/evr_event_new.php:440
+msgid ""
+"Enter the url to an image you would like displayed next to the event in the "
+"event listings. Size should be 150 x112"
+msgstr ""
+
+#: event/evr_event_edit.php:501 event/evr_event_new.php:441
+msgid "Thumbnail Image URL"
+msgstr ""
+
+#: event/evr_event_edit.php:506 event/evr_event_new.php:446
+msgid ""
+"Enter the url of an image you wish displayed above the registration form.  "
+"The image should be no wider than 450."
+msgstr ""
+
+#: event/evr_event_edit.php:507 event/evr_event_new.php:447
+msgid "Header Image URL"
+msgstr ""
+
+#: event/evr_event_edit.php:517 event/evr_event_edit.php:561
+#: event/evr_event_new.php:457 event/evr_event_new.php:516
+msgid "Coordinator Options"
+msgstr ""
+
+#: event/evr_event_edit.php:518 event/evr_event_new.php:458
+msgid "If you want to send alerts to a unique event coordinator"
+msgstr ""
+
+#: event/evr_event_edit.php:519 event/evr_event_new.php:459
+msgid "Do you want to send alerts to a coordinator for this event?"
+msgstr ""
+
+#: event/evr_event_edit.php:529 event/evr_event_new.php:466
+msgid "Coordinator email:"
+msgstr ""
+
+#: event/evr_event_edit.php:532 event/evr_event_new.php:471
+msgid ""
+"Enter the text for the registration alert email.  This email will be sent in "
+"text format.  See User Manual for data tags."
+msgstr ""
+
+#: event/evr_event_edit.php:533 event/evr_event_new.php:472
+msgid "Coordinator Registration Alert Email"
+msgstr ""
+
+#: event/evr_event_edit.php:546 event/evr_event_new.php:494
+msgid ""
+"Enter the text for the payment alert email.  This email will be sent in text "
+"format.  See User Manual for data tags."
+msgstr ""
+
+#: event/evr_event_edit.php:547 event/evr_event_new.php:495
+msgid "Coordinator Payment Alert Email"
+msgstr ""
+
+#: event/evr_event_edit.php:578 event/evr_event_new.php:531
+msgid "Confirmation eMail"
+msgstr ""
+
+#: event/evr_event_edit.php:581 event/evr_event_new.php:535
+msgid ""
+"If you have send mail option enabled in the company settings, you can "
+"override the default mail by creating a custom mail for this event."
+msgstr ""
+
+#: event/evr_event_edit.php:582 event/evr_event_new.php:536
+msgid "Do you want to use a custom email for this event?"
+msgstr ""
+
+#: event/evr_event_edit.php:591 event/evr_event_new.php:545
+msgid ""
+"Enter the text for the confirmation email.  This email will be sent in text "
+"format.  See User Manual for data tags."
+msgstr ""
+
+#: event/evr_event_edit.php:592 event/evr_event_new.php:546
+msgid "Custom Confirmation Email"
+msgstr ""
+
+#: event/evr_event_edit.php:608
+msgid "Update Event"
+msgstr ""
+
+#: event/evr_event_edit.php:613 event/evr_event_new.php:569
+msgid "Please make sure you complete each section before submitting!"
+msgstr ""
+
+#: event/evr_event_item-add.php:18 event/evr_event_item-reorder.php:53
+#: event/evr_event_listing.php:27 event/evr_event_new.php:48
+msgid "Event Management"
+msgstr ""
+
+#: event/evr_event_item-add.php:24
+msgid "Event Items: "
+msgstr ""
+
+#: event/evr_event_item-add.php:67 event/evr_event_item-add.php:79
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+msgid "Name"
+msgstr ""
+
+#: event/evr_event_item-add.php:68 event/evr_event_item-add.php:80
+msgid "Price"
+msgstr ""
+
+#: event/evr_event_item-add.php:69 event/evr_event_item-add.php:81
+msgid "Start"
+msgstr ""
+
+#: event/evr_event_item-add.php:70 event/evr_event_item-add.php:82
+msgid "End"
+msgstr ""
+
+#: event/evr_event_item-add.php:72 event/evr_event_item-add.php:84
+msgid "Actions"
+msgstr ""
+
+#: event/evr_event_item-add.php:125
+msgid "ADD COST/ITEM"
+msgstr ""
+
+#: event/evr_event_item-add.php:129
+msgid "RE-ARRANGE ITEMS"
+msgstr ""
+
+#: event/evr_event_item-add.php:135
+msgid "COUPON CODE"
+msgstr ""
+
+#: event/evr_event_item-add.php:138
+msgid ""
+"A coupon code is a promotional code you can tie to your event.  The code is "
+"valid for a discount off the total registration cost.\">\n"
+"\t       Do you want to use a coupon code for this event? "
+msgstr ""
+
+#: event/evr_event_item-add.php:144
+msgid ""
+"This should be a one word code with no spaces or extra characters. Recommend "
+"ALL CAPS."
+msgstr ""
+
+#: event/evr_event_item-add.php:145
+msgid "Enter the Code"
+msgstr ""
+
+#: event/evr_event_item-add.php:147
+msgid ""
+"Enter the amount with two decimal places.  You MUST put a - sign before the "
+"value, otherwise this will add to the total\n"
+"                     during calculations. i.e. -10.00  "
+msgstr ""
+
+#: event/evr_event_item-add.php:149
+msgid "Discount amount for Coupon Code"
+msgstr ""
+
+#: event/evr_event_item-add.php:158
+msgid "UPDATE COUPON CODE"
+msgstr ""
+
+#: event/evr_event_item-add.php:178
+msgid "Add Event Cost/Item for "
+msgstr ""
+
+#: event/evr_event_item-add.php:181 event/evr_event_item-add.php:285
+msgid ""
+"Select a Item/Cost category.  Note that category REG is used for attendance "
+"count, all others are not included in attendance count."
+msgstr ""
+
+#: event/evr_event_item-add.php:182 event/evr_event_item-add.php:286
+msgid "What type of Item/Cost is this?"
+msgstr ""
+
+#: event/evr_event_item-add.php:184 event/evr_event_item-add.php:291
+#: event/evr_event_item-add.php:311
+msgid "Registration Attendee"
+msgstr ""
+
+#: event/evr_event_item-add.php:185 event/evr_event_item-add.php:295
+#: event/evr_event_item-add.php:312
+msgid "Merchandise"
+msgstr ""
+
+#: event/evr_event_item-add.php:186 event/evr_event_item-add.php:299
+#: event/evr_event_item-add.php:313
+msgid "Discount"
+msgstr ""
+
+#: event/evr_event_item-add.php:187 event/evr_event_item-add.php:303
+#: event/evr_event_item-add.php:314
+msgid "Workshop"
+msgstr ""
+
+#: event/evr_event_item-add.php:188 event/evr_event_item-add.php:307
+#: event/evr_event_item-add.php:315
+msgid "Meal or Food"
+msgstr ""
+
+#: event/evr_event_item-add.php:192
+msgid "Use a concise but descriptive name. Limit is 69 Characters."
+msgstr ""
+
+#: event/evr_event_item-add.php:192 event/evr_event_item-add.php:319
+msgid "Name of Cost/Item"
+msgstr ""
+
+#: event/evr_event_item-add.php:196 event/evr_event_item-add.php:323
+msgid "Provide a description of the cost/ticket."
+msgstr ""
+
+#: event/evr_event_item-add.php:196 event/evr_event_item-add.php:323
+msgid "Description of Cost"
+msgstr ""
+
+#: event/evr_event_item-add.php:200
+msgid ""
+"Provide the number of available item/cost types per registration form. If it "
+"is a REG item, available seats will impact overall amount available. Leave "
+"blank if no limit (system will default to 25)."
+msgstr ""
+
+#: event/evr_event_item-add.php:200 event/evr_event_item-add.php:328
+msgid "Available items/cost per registration/order?"
+msgstr ""
+
+#: event/evr_event_item-add.php:204 event/evr_event_item-add.php:332
+msgid "VALUE/COST"
+msgstr ""
+
+#: event/evr_event_item-add.php:206 event/evr_event_item-add.php:334
+msgid "Please select no for event pricing setup, select yes for free event"
+msgstr ""
+
+#: event/evr_event_item-add.php:207 event/evr_event_item-add.php:335
+msgid "Will this be a free item?"
+msgstr ""
+
+#: event/evr_event_item-add.php:212 event/evr_event_item-add.php:340
+msgid "Please select the country in which the currency format will be used"
+msgstr ""
+
+#: event/evr_event_item-add.php:212 event/evr_event_item-add.php:340
+msgid "Custom Currency"
+msgstr ""
+
+#: event/evr_event_item-add.php:235 event/evr_event_item-add.php:363
+msgid ""
+"Please enter the amount using 2 decimal point (i.e. 10.00) for the "
+"registration cost.  Use minus symbol before for discount amounts (i.e. "
+"-5.00)."
+msgstr ""
+
+#: event/evr_event_item-add.php:236 event/evr_event_item-add.php:364
+msgid "Item/Cost Value"
+msgstr ""
+
+#: event/evr_event_item-add.php:241 event/evr_event_item-add.php:369
+msgid "AVAILABILITY TIMES OF COST/ITEM"
+msgstr ""
+
+#: event/evr_event_item-add.php:252
+msgid "ADD NEW COST/TICKET"
+msgstr ""
+
+#: event/evr_event_item-add.php:282
+msgid "Edit Event Cost/Item for "
+msgstr ""
+
+#: event/evr_event_item-add.php:327
+msgid ""
+"Provide the number of available item/cost types per registration form. If it "
+"is a REG item, available seats will impact overall amount available. Leave "
+"blank if no limit."
+msgstr ""
+
+#: event/evr_event_item-add.php:380
+msgid "UPDATE COST/TICKET"
+msgstr ""
+
+#: event/evr_event_item-coupon_update.php:16
+msgid ""
+"The coupon code information has been updated.  You will now be returned to "
+"the Event Pricing Page"
+msgstr ""
+
+#: event/evr_event_item-coupon_update.php:19
+msgid ""
+"There was an error in your submission, please try again. The coupon code "
+"changes were not saved!"
+msgstr ""
+
+#: event/evr_event_item-delete.php:13
+msgid "The cost item/ has been deleted."
+msgstr ""
+
+#: event/evr_event_item-post.php:34
+msgid ""
+"The event cost/ticket item has been added.  You will now be taken back to "
+"the Event Pricing Page"
+msgstr ""
+
+#: event/evr_event_item-post.php:38
+msgid ""
+"There was an error in your submission, please try again. The event cost/"
+"ticket item was not saved!"
+msgstr ""
+
+#: event/evr_event_item-post.php:40 event/evr_event_item-update.php:56
+msgid "Now taking you back . . ."
+msgstr ""
+
+#: event/evr_event_item-reorder.php:59
+msgid "ReOrder Event Items/Cost for display: "
+msgstr ""
+
+#: event/evr_event_item-reorder.php:85
+msgid "Item Sales Begin:"
+msgstr ""
+
+#: event/evr_event_item-reorder.php:85
+msgid "Item Sales End:"
+msgstr ""
+
+#: event/evr_event_item-reorder.php:92
+#: questions/evr_admin_questions-reorder.php:91
+msgid "Apply Changes"
+msgstr ""
+
+#: event/evr_event_item-update.php:50
+msgid ""
+"The event cost/ticket item has been updated.  You will now be taken back to "
+"the Event Pricing Page"
+msgstr ""
+
+#: event/evr_event_item-update.php:54
+msgid ""
+"There was an error in your submission, please try again. The event cost/"
+"ticket item was not updated!"
+msgstr ""
+
+#: event/evr_event_listing.php:6 evr_support_functions.php:97
+msgid "ADD EVENT"
+msgstr ""
+
+#: event/evr_event_listing.php:158
+msgid "Fees/Items"
+msgstr ""
+
+#: event/evr_event_listing.php:182 event/evr_event_listing.php:183
+#: payments/evr_admin_payments-view.php:119
+msgid "Edit"
+msgstr ""
+
+#: event/evr_event_listing.php:190 event/evr_event_listing.php:191
+msgid "Copy"
+msgstr ""
+
+#: event/evr_event_listing.php:190 event/evr_event_listing.php:191
+msgid "Are you sure you want to copy"
+msgstr ""
+
+#: event/evr_event_listing.php:198 payments/evr_admin_payments-view.php:118
+msgid "Delete"
+msgstr ""
+
+#: event/evr_event_listing.php:198
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: event/evr_event_new.php:51
+msgid "ADD NEW EVENT"
+msgstr ""
+
+#: event/evr_event_new.php:92
+msgid ""
+"Provide a detailed description of the event, \n"
+"                    include key details other than when and where. Do not "
+"use any html code. This is a text only display.\n"
+"                    To create new display lines just press Enter."
+msgstr ""
+
+#: event/evr_event_new.php:306
+msgid "EVENT TIMES"
+msgstr ""
+
+#: event/evr_event_new.php:334
+msgid "EVENT OPTIONS"
+msgstr ""
+
+#: event/evr_event_new.php:564
+msgid "Submit New Event"
+msgstr ""
+
+#: event/evr_event_popup_pop.php:43 evr_calendar.php:573
+#: evr_event_popup_pop.php:43 public/evr_event_colorbox_pop.php:35
+#: public/evr_event_popup_pop.php:35 public/evr_public-show_event_list.php:192
+msgid "Event Fees"
+msgstr ""
+
+#: event/evr_event_update.php:118
+msgid "The Event details saved for "
+msgstr ""
+
+#: event/evr_event_update.php:118
+msgid " has been updated!"
+msgstr ""
+
+#: event/evr_event_update.php:122
+msgid ""
+"There was an error in your submission, please try again. The event was not "
+"updated!"
+msgstr ""
+
+#: evr_admin_category.php:18
+msgid "Category Management"
+msgstr ""
+
+#: evr_admin_category.php:31
+msgid "Manage Categories"
+msgstr ""
+
+#: evr_admin_category.php:41
+msgid "Add A Category"
+msgstr ""
+
+#: evr_admin_category.php:47 evr_admin_category.php:112
+msgid "Category Name"
+msgstr ""
+
+#: evr_admin_category.php:48
+msgid "Unique ID For Category"
+msgstr ""
+
+#: evr_admin_category.php:65
+msgid "Do you want to display the category description on the events page?"
+msgstr ""
+
+#: evr_admin_category.php:68 evr_admin_category.php:145
+msgid "Category Description"
+msgstr ""
+
+#: evr_admin_category.php:78 evr_admin_category.php:155
+msgid "Add Category"
+msgstr ""
+
+#: evr_admin_category.php:106
+msgid "Edit Category"
+msgstr ""
+
+#: evr_admin_category.php:113
+msgid "Unique Category Identifier"
+msgstr ""
+
+#: evr_admin_category.php:141
+msgid "Do you want to display the event description on the events page?"
+msgstr ""
+
+#: evr_admin_category.php:176
+msgid "The category has been added."
+msgstr ""
+
+#: evr_admin_category.php:178
+msgid "The category was not saved."
+msgstr ""
+
+#: evr_admin_category.php:201
+msgid "The category has been updated."
+msgstr ""
+
+#: evr_admin_category.php:203
+msgid "The category was not updated."
+msgstr ""
+
+#: evr_admin_category.php:216
+msgid "The category has been successfully deleted."
+msgstr ""
+
+#: evr_admin_category.php:223
+msgid "Current Categories"
+msgstr ""
+
+#: evr_admin_category.php:228 evr_admin_category.php:238
+msgid "ID"
+msgstr ""
+
+#: evr_admin_category.php:229 evr_admin_category.php:239
+msgid "Name "
+msgstr ""
+
+#: evr_admin_category.php:230 evr_admin_category.php:240
+msgid "Identifier"
+msgstr ""
+
+#: evr_admin_category.php:231 evr_admin_category.php:241
+#: questions/evr_admin_questions-default.php:57
+#: questions/evr_admin_questions-default.php:65
+msgid "Description"
+msgstr ""
+
+#: evr_admin_category.php:232 evr_admin_category.php:242
+msgid "Display Description"
+msgstr ""
+
+#: evr_admin_category.php:233 evr_admin_category.php:243
+msgid "Shortcode"
+msgstr ""
+
+#: evr_admin_category.php:269
+msgid "Are you sure you want to delete category?"
+msgstr ""
+
+#: evr_admin_category.php:273
+msgid "No Record Found!"
+msgstr ""
+
+#: evr_admin_export.php:308 evr_excel.php:171
+msgid "This Is Not A Valid Selection!"
+msgstr ""
+
+#: evr_admin_menu.php:127
+msgid "Attendee Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:128 evr_admin_menu.php:133 evr_admin_menu.php:138
+#: evr_admin_menu.php:143 evr_admin_menu.php:148 evr_admin_menu.php:153
+#: evr_admin_menu.php:158
+msgid "Version:"
+msgstr ""
+
+#: evr_admin_menu.php:132
+msgid "Event Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:137
+msgid "Question Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:142
+msgid "Answer Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:147
+msgid "Category Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:152
+msgid "Cost Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:157
+msgid "Payment Table Name:"
+msgstr ""
+
+#: evr_admin_menu.php:173
+msgid ""
+"You upgraded from a previous version of Event Registration.  All existing "
+"data has been imported.  Please verify data before deleting old tables!"
+msgstr ""
+
+#: evr_calendar.php:46 evr_calendar.php:53 evr_calendar.php:81
+msgid "Jan"
+msgstr ""
+
+#: evr_calendar.php:48
+msgid "Feb"
+msgstr ""
+
+#: evr_calendar.php:51 evr_calendar.php:77 evr_calendar.php:79
+msgid "Dec"
+msgstr ""
+
+#: evr_calendar.php:75
+msgid "Nov"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Sun"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Mon"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Tue"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Wed"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Thu"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Fri"
+msgstr ""
+
+#: evr_calendar.php:209 evr_calendar.php:212
+msgid "Sat"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:280 evr_three_cal.php:55
+#: evr_three_cal.php:121
+msgid "January"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:281 evr_three_cal.php:55
+#: evr_three_cal.php:122
+msgid "February"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:282 evr_three_cal.php:55
+#: evr_three_cal.php:123
+msgid "March"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:283 evr_three_cal.php:55
+#: evr_three_cal.php:124
+msgid "April"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:284 evr_three_cal.php:55
+#: evr_three_cal.php:125
+msgid "May"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:285 evr_three_cal.php:55
+#: evr_three_cal.php:126
+msgid "June"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:286 evr_three_cal.php:55
+#: evr_three_cal.php:127
+msgid "July"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:287 evr_three_cal.php:55
+#: evr_three_cal.php:128
+msgid "August"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:288 evr_three_cal.php:55
+#: evr_three_cal.php:129
+msgid "September"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:289 evr_three_cal.php:55
+#: evr_three_cal.php:130
+msgid "October"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:290 evr_three_cal.php:55
+#: evr_three_cal.php:131
+msgid "November"
+msgstr ""
+
+#: evr_calendar.php:214 evr_calendar.php:291 evr_three_cal.php:55
+#: evr_three_cal.php:132
+msgid "December"
+msgstr ""
+
+#: evr_calendar.php:279 evr_three_cal.php:120
+msgid "Month"
+msgstr ""
+
+#: evr_calendar.php:293 evr_three_cal.php:134
+msgid "Year"
+msgstr ""
+
+#: evr_calendar.php:318 evr_three_cal.php:156
+msgid "Go"
+msgstr ""
+
+#: evr_calendar.php:552 public/evr_event_colorbox_pop.php:17
+#: public/evr_event_popup_pop.php:17
+msgid "Time: "
+msgstr ""
+
+#: evr_calendar.php:563 public/evr_public-form.php:58
+#: public/evr_public-show_event_list.php:183
+msgid "Location"
+msgstr ""
+
+#: evr_calendar.php:592 public/evr_public-form.php:138
+msgid "Registration is closed for this event."
+msgstr ""
+
+#: evr_calendar.php:594 public/evr_public-form.php:140
+msgid "For more information or questions, please email: "
+msgstr ""
+
+#: evr_calendar.php:601 public/evr_public-form.php:78
+msgid "MORE INFO"
+msgstr ""
+
+#: evr_calendar.php:605
+msgid "External Registration"
+msgstr ""
+
+#: evr_calendar.php:610
+msgid "REGISTER"
+msgstr ""
+
+#: evr_calendar.php:746
+msgid "all day"
+msgstr ""
+
+#: evr_calendar.php:748
+msgid "Between"
+msgstr ""
+
+#: evr_calendar.php:758
+msgid "No event till now!"
+msgstr ""
+
+#: evr_clean_db.php:17 evr_clean_db.php:49
+msgid "You must check the confirm box before continuing!"
+msgstr ""
+
+#: evr_clean_db.php:22
+msgid "Are you sure you want to purge the old data from a previous version?"
+msgstr ""
+
+#: evr_clean_db.php:56
+msgid "Are you sure you want to delete all Event Registratin data"
+msgstr ""
+
+#: evr_clean_db.php:120
+msgid "Now deleting data tables and options for Event Registration"
+msgstr ""
+
+#: evr_clean_db.php:123
+msgid "All Event Registration Data Tables and Options have been deleted!"
+msgstr ""
+
+#: evr_clean_db.php:136
+msgid ""
+"Now deleting old data tables and options from previous version of Event "
+"Registration"
+msgstr ""
+
+#: evr_clean_db.php:209
+msgid ""
+"All previous version Event Registration Data Tables and Options have been "
+"deleted!"
+msgstr ""
+
+#: evr_company.php:7
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: evr_company.php:27 evr_company.php:45 evr_company.php:63 evr_company.php:77
+#: evr_company.php:91
+msgid "Configuration settings saved to options"
+msgstr ""
+
+#: evr_company.php:30 evr_company.php:48 evr_company.php:66 evr_company.php:80
+#: evr_company.php:94
+msgid ""
+"There was an error in your submission, please try again. The configuration "
+"data was not updated!"
+msgstr ""
+
+#: evr_company.php:32 evr_company.php:50 evr_company.php:68 evr_company.php:82
+#: evr_company.php:96
+msgid " . . .Now refreshing configuration settings . . "
+msgstr ""
+
+#: evr_company.php:144 evr_company.php:153 evr_company.php:162
+#: evr_company.php:171 evr_company.php:180
+msgid ""
+"You must click the Save Changes button at the bottom of this tab for changes "
+"on this tab to take effect."
+msgstr ""
+
+#: evr_company.php:148 evr_company.php:157 evr_company.php:166
+#: evr_company.php:175 evr_company.php:184
+msgid "Save Changes"
+msgstr ""
+
+#: evr_content.php:45
+msgid ""
+"Please check your registration confirmation email for payment information. "
+"Click the link provided in the registration confirmation email."
+msgstr ""
+
+#: evr_content.php:55 public/evr_public-return_to_pay.php:39
+msgid "Payment Page for"
+msgstr ""
+
+#: evr_content.php:55
+msgid "for "
+msgstr ""
+
+#: evr_content.php:90 public/evr_public-return_to_pay.php:75
+msgid "Payments Received:"
+msgstr ""
+
+#: evr_content.php:93 public/evr_public-return_to_pay.php:78
+msgid "Payment"
+msgstr ""
+
+#: evr_content.php:98 public/evr_public-return_to_pay.php:83
+msgid "Total Outstanding Payment Due*:"
+msgstr ""
+
+#: evr_content.php:105 payments/evr_admin_payments-view.php:124
+#: public/evr_public-return_to_pay.php:90
+msgid "No Payments Received!"
+msgstr ""
+
+#: evr_content.php:107 public/evr_public-return_to_pay.php:92
+msgid "Total Payment Due*:"
+msgstr ""
+
+#: evr_content.php:111 public/evr_public-return_to_pay.php:96
+msgid ""
+"*Payments could take several days to post to this page. Please check back in "
+"several days if you made a payment and your payment is not showing at this "
+"time."
+msgstr ""
+
+#: evr_content.php:428
+msgid "Attendee List for "
+msgstr ""
+
+#: evr_install.php:604 evr_install.php:638 evr_install.php:713
+#: evr_install.php:752 evr_install.php:808
+msgid "Success Updating table - "
+msgstr ""
+
+#: evr_install.php:607 evr_install.php:641 evr_install.php:716
+#: evr_install.php:755 evr_install.php:811
+msgid "Failure Updating table - "
+msgstr ""
+
+#: evr_support_functions.php:8
+msgid ""
+"<a href =\"admin.php?page=event-registration/EVNTREG.php\"><b> EVENTS "
+"REGISTRATION DASHBOARD</b></a>"
+msgstr ""
+
+#: evr_support_functions.php:14
+msgid ""
+"If you find this plugin useful, please contribute to enable its continued "
+"development!"
+msgstr ""
+
+#: evr_support_functions.php:342
+msgid "Software Registration - Event Registration for Wordpress"
+msgstr ""
+
+#: evr_support_functions.php:388
+msgid "The Event Registration software is registered!"
+msgstr ""
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+msgid "S"
+msgstr ""
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+msgid "M"
+msgstr ""
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+msgid "T"
+msgstr ""
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+msgid "W"
+msgstr ""
+
+#: evr_three_cal.php:50 evr_three_cal.php:53
+msgid "F"
+msgstr ""
+
+#: incl/settings.php:50
+msgid "Company Name:"
+msgstr ""
+
+#: incl/settings.php:54
+msgid "Company Street 1:"
+msgstr ""
+
+#: incl/settings.php:58
+msgid "Company Street 2:"
+msgstr ""
+
+#: incl/settings.php:62
+msgid "Company City:"
+msgstr ""
+
+#: incl/settings.php:66
+msgid "Company State:"
+msgstr ""
+
+#: incl/settings.php:70
+msgid "Company Postal Code:"
+msgstr ""
+
+#: incl/settings.php:74
+msgid "Primary contact email:"
+msgstr ""
+
+#: incl/settings.php:88
+msgid "Attention"
+msgstr ""
+
+#: incl/settings.php:89
+msgid "These settings must be configured for the plugin to function correctly."
+msgstr ""
+
+#: incl/settings.php:91
+msgid "Main registration page"
+msgstr ""
+
+#: incl/settings.php:94 incl/settings.php:107
+msgid "Main page"
+msgstr ""
+
+#: incl/settings.php:101
+msgid "(This page should contain the "
+msgstr ""
+
+#: incl/settings.php:101
+msgid " <strong>[EVR_EVENTS]</strong> "
+msgstr ""
+
+#: incl/settings.php:101
+msgid ""
+"shortcode. This page should be public and can be hidden from navigation, if "
+"desired.)"
+msgstr ""
+
+#: incl/settings.php:105
+msgid "Return URL for Payments"
+msgstr ""
+
+#: incl/settings.php:111
+msgid "(This page will contain the "
+msgstr ""
+
+#: incl/settings.php:111
+msgid " <strong>EVR_PAYMENT</strong> "
+msgstr ""
+
+#: incl/settings.php:111
+msgid "payment shortcode. This page should public and hidden from navigation.)"
+msgstr ""
+
+#: incl/settings.php:118
+msgid "Select how the events will be listed on Event Listing Page"
+msgstr ""
+
+#: incl/settings.php:119
+msgid "PopUp Window"
+msgstr ""
+
+#: incl/settings.php:120
+msgid "Accordian List"
+msgstr ""
+
+#: incl/settings.php:121
+msgid "Link Only"
+msgstr ""
+
+#: incl/settings.php:127
+msgid "Use Captcha on registration form?"
+msgstr ""
+
+#: incl/settings.php:134
+msgid "CSS Overrides for registration form?"
+msgstr ""
+
+#: incl/settings.php:145
+msgid "Calendar Settings"
+msgstr ""
+
+#: incl/settings.php:147
+msgid "Start Day of Week"
+msgstr ""
+
+#: incl/settings.php:149
+msgid "Sunday"
+msgstr ""
+
+#: incl/settings.php:150
+msgid "Monday"
+msgstr ""
+
+#: incl/settings.php:152
+msgid "Do you want to use Category color coding?"
+msgstr ""
+
+#: incl/settings.php:156
+msgid "Select color for Calendar Display"
+msgstr ""
+
+#: incl/settings.php:162
+msgid ""
+"Click on each field to display the color picker. Click again to close it."
+msgstr ""
+
+#: incl/settings.php:164
+msgid "Do you want to use the Date selector?"
+msgstr ""
+
+#: incl/settings.php:168
+msgid "Calender Date Selector Background Color"
+msgstr ""
+
+#: incl/settings.php:170 incl/settings.php:180
+msgid "Selector Text Color"
+msgstr ""
+
+#: incl/settings.php:172 incl/settings.php:182 incl/settings.php:191
+msgid "Black"
+msgstr ""
+
+#: incl/settings.php:173 incl/settings.php:183 incl/settings.php:192
+msgid "White"
+msgstr ""
+
+#: incl/settings.php:176
+msgid "Calender Day Header Background Color"
+msgstr ""
+
+#: incl/settings.php:185
+msgid "Current Day Background Color"
+msgstr ""
+
+#: incl/settings.php:189
+msgid "Current Day Text Color"
+msgstr ""
+
+#: incl/settings.php:194
+msgid "Description Pop Border Color"
+msgstr ""
+
+#: incl/settings.php:204
+msgid "Will you accept checks/cash?"
+msgstr ""
+
+#: incl/settings.php:211
+msgid "Will you accept donations?"
+msgstr ""
+
+#: incl/settings.php:219
+msgid "Currency Format:"
+msgstr ""
+
+#: incl/settings.php:243
+msgid "Do you want to charge sales tax?"
+msgstr ""
+
+#: incl/settings.php:245
+msgid "(This option must be enable to charge sales tax)"
+msgstr ""
+
+#: incl/settings.php:246
+msgid "Sales Tax Rate: "
+msgstr ""
+
+#: incl/settings.php:246
+msgid "(must be decimal, i.e. .085 )"
+msgstr ""
+
+#: incl/settings.php:250
+msgid "Payment Message on Confirmation Screen"
+msgstr ""
+
+#: incl/settings.php:253 public/evr_public-payment.php:212
+#: public/evr_public-payment.php:435
+msgid ""
+"To pay online, please select the Payment button to be taken to our payment "
+"vendor's site."
+msgstr ""
+
+#: incl/settings.php:256
+msgid "Payment Button Text"
+msgstr ""
+
+#: incl/settings.php:257
+msgid "PAY NOW"
+msgstr ""
+
+#: incl/settings.php:261
+msgid "Payment Gateway Provider:"
+msgstr ""
+
+#: incl/settings.php:284
+msgid "Enter your Authorize.Net API Login ID"
+msgstr ""
+
+#: incl/settings.php:288
+msgid "Authorized.Net Txn Key"
+msgstr ""
+
+#: incl/settings.php:293
+msgid "Authorize.net test mode"
+msgstr ""
+
+#: incl/settings.php:294 incl/settings.php:301 incl/settings.php:416
+msgid "(used for testing/debug)"
+msgstr ""
+
+#: incl/settings.php:300
+msgid "Use Authorize.net Sandbox"
+msgstr ""
+
+#: incl/settings.php:306
+msgid "Enter your Sandbox Authorize.Net ID"
+msgstr ""
+
+#: incl/settings.php:309
+msgid "Enter your Sandbox Authorized.Net Txn Key"
+msgstr ""
+
+#: incl/settings.php:319
+msgid "Enter your PayFast merchant ID.."
+msgstr ""
+
+#: incl/settings.php:323
+msgid "Enter your PayFast merchant key."
+msgstr ""
+
+#: incl/settings.php:326
+msgid "PayFast Mode"
+msgstr ""
+
+#: incl/settings.php:329
+msgid "Live"
+msgstr ""
+
+#: incl/settings.php:330
+msgid "Sandbox/Test"
+msgstr ""
+
+#: incl/settings.php:333
+msgid "Payfast return URL"
+msgstr ""
+
+#: incl/settings.php:333
+msgid "(page you return to after making payments)"
+msgstr ""
+
+#: incl/settings.php:336
+msgid "Payfast cancel URL"
+msgstr ""
+
+#: incl/settings.php:336
+msgid "(page you return to for cancelled payment)"
+msgstr ""
+
+#: incl/settings.php:339
+msgid "Payfast ITN URL"
+msgstr ""
+
+#: incl/settings.php:339
+msgid "(used to process payments into the database)"
+msgstr ""
+
+#: incl/settings.php:343
+msgid "Use PayFast debug?"
+msgstr ""
+
+#: incl/settings.php:345
+msgid "(used for debug)"
+msgstr ""
+
+#: incl/settings.php:353
+msgid "Enter your Google Wallet merchant ID.."
+msgstr ""
+
+#: incl/settings.php:357
+msgid "Enter your Google Wallet merchant key."
+msgstr ""
+
+#: incl/settings.php:364
+msgid "Enter your MonsterPay merchant ID.."
+msgstr ""
+
+#: incl/settings.php:371
+msgid "Enter your UPAY Site ID:"
+msgstr ""
+
+#: incl/settings.php:375
+msgid "Enter your UPAY URL that you submit to:"
+msgstr ""
+
+#: incl/settings.php:379
+msgid "Enter your UPAY Success URL."
+msgstr ""
+
+#: incl/settings.php:386
+msgid "Enter your PayPal ID."
+msgstr ""
+
+#: incl/settings.php:393
+msgid "Image URL"
+msgstr ""
+
+#: incl/settings.php:393
+msgid "(For your logo on PayPal page)"
+msgstr ""
+
+#: incl/settings.php:397
+msgid "Cancel Return URL"
+msgstr ""
+
+#: incl/settings.php:397
+msgid "(page you setup for cancelled payment)"
+msgstr ""
+
+#: incl/settings.php:401
+msgid "Notify URL"
+msgstr ""
+
+#: incl/settings.php:401
+msgid "(used to process payments)"
+msgstr ""
+
+#: incl/settings.php:405
+msgid "Return Method:"
+msgstr ""
+
+#: incl/settings.php:408 incl/settings.php:411
+msgid "GET"
+msgstr ""
+
+#: incl/settings.php:409 incl/settings.php:412
+msgid "POST"
+msgstr ""
+
+#: incl/settings.php:416
+msgid "Use PayPal Sandbox"
+msgstr ""
+
+#: incl/settings.php:444
+msgid "Do you want to send Registration Confirmation emails?"
+msgstr ""
+
+#: incl/settings.php:448
+msgid "(This option must be enable to send custom mails in events)"
+msgstr ""
+
+#: incl/settings.php:449
+msgid "Default Email Message"
+msgstr ""
+
+#: incl/settings.php:449 incl/settings.php:463
+msgid "Example"
+msgstr ""
+
+#: incl/settings.php:455
+msgid "Do you want to send Payment Confirmation emails?"
+msgstr ""
+
+#: incl/settings.php:460
+msgid "Payment Message Subject"
+msgstr ""
+
+#: incl/settings.php:462
+msgid "Default Payment Received Email Message"
+msgstr ""
+
+#: incl/settings.php:490
+msgid "How many Events to list per page in admin view: "
+msgstr ""
+
+#: incl/settings.php:494
+msgid "How many Attendees to list per page in admin view: "
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:24
+#: payments/evr_admin_payments-edit.php:24
+#: payments/evr_admin_payments-event_list.php:20
+#: payments/evr_admin_payments-view.php:22
+msgid "Payment Management"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:30
+#: payments/evr_admin_payments-edit.php:30
+msgid "Add Payment:"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:30
+#: payments/evr_admin_payments-edit.php:30
+msgid "Balance Owed:"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:35
+#: payments/evr_admin_payments-edit.php:35
+msgid "Payment Received Date"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:36
+#: payments/evr_admin_payments-edit.php:36
+msgid "Amount Paid"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:37
+#: payments/evr_admin_payments-edit.php:37
+msgid "Payment Type"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:39
+#: payments/evr_admin_payments-edit.php:40
+#: payments/evr_admin_payments-edit.php:48
+msgid "Full Payment"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:40
+#: payments/evr_admin_payments-edit.php:41
+#: payments/evr_admin_payments-edit.php:49
+msgid "Partial Payment"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:41
+#: payments/evr_admin_payments-edit.php:42
+#: payments/evr_admin_payments-edit.php:50
+msgid "Deposit"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:42
+#: payments/evr_admin_payments-edit.php:43
+#: payments/evr_admin_payments-edit.php:51
+msgid "Donation"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:43
+#: payments/evr_admin_payments-edit.php:44
+#: payments/evr_admin_payments-edit.php:52
+msgid "Modification"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:44
+#: payments/evr_admin_payments-edit.php:45
+#: payments/evr_admin_payments-edit.php:53
+msgid "Cancelation"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:45
+#: payments/evr_admin_payments-edit.php:46
+#: payments/evr_admin_payments-edit.php:54
+msgid "Refund"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:47
+#: payments/evr_admin_payments-edit.php:56
+msgid "Payment Method"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:48
+#: payments/evr_admin_payments-edit.php:58
+#: payments/evr_admin_payments-edit.php:63
+msgid "Online/Credit Card"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:49
+#: payments/evr_admin_payments-edit.php:59
+#: payments/evr_admin_payments-edit.php:64
+msgid "Check"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:50
+#: payments/evr_admin_payments-edit.php:60
+#: payments/evr_admin_payments-edit.php:65
+msgid "Cash"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:51
+#: payments/evr_admin_payments-edit.php:61
+#: payments/evr_admin_payments-edit.php:66
+msgid "Event Credit"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:53
+#: payments/evr_admin_payments-edit.php:68
+msgid "Transaction ID"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:57
+msgid "Do you want to send a payment received notice to the payer?"
+msgstr ""
+
+#: payments/evr_admin_payments-add.php:84
+msgid "POST PAYMENT"
+msgstr ""
+
+#: payments/evr_admin_payments-case.php:51
+msgid ""
+"A balance is outstanding on your event registration fees.  Please pay to "
+"complete your registration process."
+msgstr ""
+
+#: payments/evr_admin_payments-case.php:53
+msgid "Payment Reminder"
+msgstr ""
+
+#: payments/evr_admin_payments-case.php:74
+msgid "Payment Reminder Notification sent to"
+msgstr ""
+
+#: payments/evr_admin_payments-delete.php:10
+msgid "The payment has been successfully deleted from the attendee."
+msgstr ""
+
+#: payments/evr_admin_payments-edit.php:72
+msgid "Do you want to send a revised payment received notice to the payer?"
+msgstr ""
+
+#: payments/evr_admin_payments-edit.php:99
+msgid "UPDATE PAYMENT"
+msgstr ""
+
+#: payments/evr_admin_payments-event_list.php:137
+msgid "EXPIRED EVENT"
+msgstr ""
+
+#: payments/evr_admin_payments-event_list.php:139
+msgid "ACTIVE EVENT"
+msgstr ""
+
+#: payments/evr_admin_payments-post.php:58
+msgid "The payment has now been added."
+msgstr ""
+
+#: payments/evr_admin_payments-post.php:60
+msgid ""
+"There was an error in your submission, please try again. The payment was not "
+"saved!"
+msgstr ""
+
+#: payments/evr_admin_payments-post.php:61
+#: payments/evr_admin_payments-update.php:63
+msgid " . . .Now returning you to the payment section . . "
+msgstr ""
+
+#: payments/evr_admin_payments-post.php:68
+#: payments/evr_admin_payments-update.php:71
+msgid "To make payment or view your payment information go to"
+msgstr ""
+
+#: payments/evr_admin_payments-post.php:93
+#: payments/evr_admin_payments-update.php:98
+msgid "Payment Received Notification sent."
+msgstr ""
+
+#: payments/evr_admin_payments-update.php:60
+msgid "The payment has been updated."
+msgstr ""
+
+#: payments/evr_admin_payments-update.php:62
+msgid ""
+"There was an error in your submission, please try again. The payment was not "
+"updated!"
+msgstr ""
+
+#: payments/evr_admin_payments-view.php:24
+msgid "Select A Different Event"
+msgstr ""
+
+#: payments/evr_admin_payments-view.php:31
+msgid "View Payments:"
+msgstr ""
+
+#: payments/evr_admin_payments-view.php:73
+msgid "Email Payment Reminders"
+msgstr ""
+
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82 public/evr_public-form.php:313
+msgid "Total"
+msgstr ""
+
+#: payments/evr_admin_payments-view.php:79
+#: payments/evr_admin_payments-view.php:82
+msgid "Order Detail"
+msgstr ""
+
+#: payments/evr_admin_payments-view.php:132
+msgid "Add Payment"
+msgstr ""
+
+#: public/evr_event_colorbox_pop.php:6
+msgid "Click Here to add to your Calendar Sotware - downloads an ICS file."
+msgstr ""
+
+#: public/evr_public-case.php:50
+msgid ""
+"IPN is only avialble with PAYPAL with this version of Event Reigstration"
+msgstr ""
+
+#: public/evr_public-case.php:58
+msgid "IPN is currently not available."
+msgstr ""
+
+#: public/evr_public-confirmation.php:14 public/evr_public-payment.php:8
+#: public/evr_public-payment.php:13 public/evr_public-return_to_pay.php:12
+msgid "Failure - please retry!"
+msgstr ""
+
+#: public/evr_public-confirmation.php:158
+msgid "Please verify your registration details:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:159
+#: public/evr_public-return_to_pay.php:45
+msgid "Event Name/Cost:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:161
+msgid "Registering Name:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:162 public/evr_public-payment.php:66
+#: public/evr_public-payment.php:128 public/evr_public-payment.php:220
+#: public/evr_public-payment.php:332 public/evr_public-payment.php:390
+#: public/evr_public-payment.php:443 public/evr_public-payment.php:529
+#: public/evr_public-payment.php:655 public/evr_public-return_to_pay.php:53
+msgid "Email Address:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:163 public/evr_public-payment.php:68
+#: public/evr_public-payment.php:130 public/evr_public-payment.php:222
+#: public/evr_public-payment.php:334 public/evr_public-payment.php:392
+#: public/evr_public-payment.php:445 public/evr_public-payment.php:531
+#: public/evr_public-payment.php:657 public/evr_public-return_to_pay.php:57
+msgid "Number of Attendees:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:164 public/evr_public-payment.php:70
+#: public/evr_public-payment.php:132 public/evr_public-payment.php:224
+#: public/evr_public-payment.php:336 public/evr_public-payment.php:394
+#: public/evr_public-payment.php:447 public/evr_public-payment.php:533
+#: public/evr_public-payment.php:659 public/evr_public-return_to_pay.php:61
+msgid "Order Details:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:177
+#: public/evr_public-confirmation.php:180
+msgid "Coupon:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:180
+msgid "Invalid Code!"
+msgstr ""
+
+#: public/evr_public-confirmation.php:186
+msgid "Sales Tax:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:190
+msgid "Event Name / Total Cost:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:194
+msgid "You are on the waiting list."
+msgstr ""
+
+#: public/evr_public-confirmation.php:197
+msgid "You are registering for"
+msgstr ""
+
+#: public/evr_public-confirmation.php:197
+msgid "person(s)."
+msgstr ""
+
+#: public/evr_public-confirmation.php:197
+msgid "Please provide the first and last name of each person:"
+msgstr ""
+
+#: public/evr_public-confirmation.php:209
+msgid "Attendee"
+msgstr ""
+
+#: public/evr_public-confirmation.php:224
+msgid "BACK"
+msgstr ""
+
+#: public/evr_public-confirmation.php:228
+msgid "You must select at least one registration item."
+msgstr ""
+
+#: public/evr_public-confirmation.php:229
+msgid "Please go back and select an item!"
+msgstr ""
+
+#: public/evr_public-confirmation.php:239
+msgid "Confirmed"
+msgstr ""
+
+#: public/evr_public-form.php:46
+msgid "Show/Hide Details"
+msgstr ""
+
+#: public/evr_public-form.php:51 public/evr_public-show_event_list.php:177
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;Time: "
+msgstr ""
+
+#: public/evr_public-form.php:154
+msgid "Street/PO Address"
+msgstr ""
+
+#: public/evr_public-form.php:163
+msgid "Postal/Zip Code"
+msgstr ""
+
+#: public/evr_public-form.php:166
+msgid "Company Name"
+msgstr ""
+
+#: public/evr_public-form.php:169
+msgid "Company Address"
+msgstr ""
+
+#: public/evr_public-form.php:172
+msgid "Company City"
+msgstr ""
+
+#: public/evr_public-form.php:175
+msgid "Company State/Province"
+msgstr ""
+
+#: public/evr_public-form.php:178
+msgid "Company Postal Code"
+msgstr ""
+
+#: public/evr_public-form.php:181
+msgid "Company Phone"
+msgstr ""
+
+#: public/evr_public-form.php:229
+msgid "Enter coupon code for discount"
+msgstr ""
+
+#: public/evr_public-form.php:248
+msgid "REGISTRATION FEES"
+msgstr ""
+
+#: public/evr_public-form.php:250
+msgid "You must select at least one item!"
+msgstr ""
+
+#: public/evr_public-form.php:298
+msgid "No Fees/Items available for todays date!"
+msgstr ""
+
+#: public/evr_public-form.php:300
+msgid "Please update fee dates!"
+msgstr ""
+
+#: public/evr_public-form.php:311
+msgid "Registration Fees"
+msgstr ""
+
+#: public/evr_public-form.php:312
+msgid "Sales Tax"
+msgstr ""
+
+#: public/evr_public-form.php:317
+msgid "Total   "
+msgstr ""
+
+#: public/evr_public-form.php:327
+msgid "No Fees Have Been Setup For This Event!"
+msgstr ""
+
+#: public/evr_public-form.php:329
+msgid "Registration for this event can not be taken at this time."
+msgstr ""
+
+#: public/evr_public-form.php:343
+msgid "Put me on the waitlist."
+msgstr ""
+
+#: public/evr_public-form.php:351
+msgid "Enter the security code as it is shown (required)"
+msgstr ""
+
+#: public/evr_public-form.php:353
+msgid "This resource requires a Javascript enabled browser."
+msgstr ""
+
+#: public/evr_public-form.php:360
+msgid "Submit"
+msgstr ""
+
+#: public/evr_public-form.php:361
+msgid "Reset"
+msgstr ""
+
+#: public/evr_public-payment.php:61 public/evr_public-payment.php:123
+#: public/evr_public-payment.php:215 public/evr_public-payment.php:327
+#: public/evr_public-payment.php:385 public/evr_public-payment.php:438
+#: public/evr_public-payment.php:524 public/evr_public-payment.php:650
+msgid "Order details:"
+msgstr ""
+
+#: public/evr_public-payment.php:62 public/evr_public-payment.php:124
+#: public/evr_public-payment.php:216 public/evr_public-payment.php:328
+#: public/evr_public-payment.php:386 public/evr_public-payment.php:439
+#: public/evr_public-payment.php:525 public/evr_public-payment.php:651
+msgid " Event Name/Cost:"
+msgstr ""
+
+#: public/evr_public-payment.php:64 public/evr_public-payment.php:126
+#: public/evr_public-payment.php:218 public/evr_public-payment.php:330
+#: public/evr_public-payment.php:388 public/evr_public-payment.php:441
+#: public/evr_public-payment.php:527 public/evr_public-payment.php:653
+#: public/evr_public-return_to_pay.php:49
+msgid "Attendee Name:"
+msgstr ""
+
+#: public/evr_public-payment.php:83 public/evr_public-payment.php:144
+#: public/evr_public-payment.php:236 public/evr_public-payment.php:348
+#: public/evr_public-payment.php:406 public/evr_public-payment.php:459
+#: public/evr_public-payment.php:545 public/evr_public-payment.php:671
+msgid "Sales Tax  "
+msgstr ""
+
+#: public/evr_public-payment.php:87 public/evr_public-payment.php:148
+#: public/evr_public-payment.php:240 public/evr_public-payment.php:352
+#: public/evr_public-payment.php:410 public/evr_public-payment.php:463
+#: public/evr_public-payment.php:549 public/evr_public-payment.php:675
+msgid "Total Cost:"
+msgstr ""
+
+#: public/evr_public-payment.php:95
+msgid "Payments will not be processed"
+msgstr ""
+
+#: public/evr_public-payment.php:95
+msgid "Sandbox Mode Is Active"
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:83
+msgid "Your information has been received."
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:229
+#: public/evr_public-process_registration.php:210
+msgid "Thank you for registering for"
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:229
+#: public/evr_public-process_registration.php:210
+msgid ""
+"At this time, all seats for the event have been taken.  \n"
+"    Your information has been placed on our waiting list.  \n"
+"    The waiting list is on a first come, first serve basis.  \n"
+"    You will be notified by email should a seat become available."
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:232
+#: public/evr_public-process_registration.php:213
+msgid "Thank You"
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:255
+msgid "A confirmation email has been sent to:"
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:325
+#: public/evr_public-process_registration.php:231
+msgid ""
+"At this time, all seats for the event have been taken.  Your information has "
+"been placed on our waiting list.  The waiting list is on a first come, first "
+"serve basis.  You will be notified by email should a seat become available."
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:334
+#: public/evr_public-process_registration.php:236
+msgid ""
+"Registration, however, is not complete until we have received your payment."
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:337
+msgid ""
+"You may pay by check.  If you are paying by check, please mail your check "
+"today to:"
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:343
+msgid "Reference "
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:350
+msgid "While there is no fee for this event, we gladly accept donations."
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:353
+msgid ""
+"You may donate online or by check.  If you are donating by check, please "
+"mail your check to:"
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:359
+msgid "Reference: Donation - "
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:362
+msgid ""
+"Please select the Donate button to be taken to our payment vendor's site for "
+"online-donations."
+msgstr ""
+
+#: public/evr_public-process_confirmation.php:371
+msgid "Print Invoice"
+msgstr ""
+
+#: public/evr_public-process_registration.php:114
+msgid "There was an error in your submission, please try again."
+msgstr ""
+
+#: public/evr_public-process_registration.php:121
+msgid "You're information has been received."
+msgstr ""
+
+#: public/evr_public-process_registration.php:239
+msgid ""
+"You may pay online or by check.  If you are paying by check, please mail "
+"your check today to:"
+msgstr ""
+
+#: public/evr_public-process_registration.php:246
+msgid ""
+"Please select the Pay Now button to be taken to our payment vendor's site "
+"for online-payment."
+msgstr ""
+
+#: public/evr_public-return_to_pay.php:14
+msgid "Please check your email for payment information."
+msgstr ""
+
+#: public/evr_public-return_to_pay.php:39
+msgid "for event"
+msgstr ""
+
+#: public/evr_public-return_to_pay.php:42
+msgid "Registration Detail Summary:"
+msgstr ""
+
+#: public/evr_public-show_event_list.php:19
+msgid "The list of upcoming events."
+msgstr ""
+
+#: public/evr_public-show_event_list.php:20
+msgid "Click on Event Name for description/registration"
+msgstr ""
+
+#: public/evr_public-show_event_list.php:21
+msgid "EVENT"
+msgstr ""
+
+#: public/evr_public-show_event_list.php:21
+msgid "START"
+msgstr ""
+
+#: public/evr_public-show_event_list.php:21
+msgid "END"
+msgstr ""
+
+#: questions/evr_admin_questions-button.php:7
+msgid "Event Question Management"
+msgstr ""
+
+#: questions/evr_admin_questions-button.php:9
+msgid "SELECT ANOTHER EVENT"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:16
+msgid "Event Questions"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:22
+msgid "Select An Event"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:42
+msgid "No Record Found"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:56
+#: questions/evr_admin_questions-default.php:64
+msgid "Event"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:58
+#: questions/evr_admin_questions-default.php:66
+msgid "Custom Questions"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:101
+msgid "No Custom Questions"
+msgstr ""
+
+#: questions/evr_admin_questions-default.php:108
+msgid "Please Create An Event First"
+msgstr ""
+
+#: questions/evr_admin_questions-delete.php:12
+msgid "The Question has been deleted. Returning to Question Management."
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:17
+msgid "EDIT QUESTION"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:28
+#: questions/evr_admin_questions-new.php:20
+msgid "Question"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:36
+#: questions/evr_admin_questions-new.php:27
+msgid "Text"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:37
+#: questions/evr_admin_questions-new.php:28
+msgid "Text Area"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:38
+#: questions/evr_admin_questions-new.php:29
+msgid "Single"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:39
+#: questions/evr_admin_questions-new.php:30
+msgid "Multiple"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:40
+#: questions/evr_admin_questions-new.php:31
+msgid "Drop Down"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:45
+#: questions/evr_admin_questions-new.php:36
+msgid "Selections"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:50
+#: questions/evr_admin_questions-new.php:42
+msgid "Required"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:54
+#: questions/evr_admin_questions-new.php:46
+msgid "Remark"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:68
+msgid "UPDATE QUESTION"
+msgstr ""
+
+#: questions/evr_admin_questions-edit.php:76
+msgid "Please select a question to edit!"
+msgstr ""
+
+#: questions/evr_admin_questions-new.php:13
+msgid "ADD NEW QUESTION"
+msgstr ""
+
+#: questions/evr_admin_questions-new.php:57
+msgid "ADD QUESTION"
+msgstr ""
+
+#: questions/evr_admin_questions-post.php:13
+msgid "The question has been added."
+msgstr ""
+
+#: questions/evr_admin_questions-post.php:14
+msgid " . . .Now returning you to Question Managment . . "
+msgstr ""
+
+#: questions/evr_admin_questions-post.php:16
+msgid ""
+"There was an error in your submission, please try again. The question was "
+"not saved!"
+msgstr ""
+
+#: questions/evr_admin_questions-post.php:17
+msgid " . . .Now returning you to Question Management . . "
+msgstr ""
+
+#: questions/evr_admin_questions-reorder.php:53
+msgid "ReOrder Event Questions for display order: "
+msgstr ""
+
+#: questions/evr_admin_questions-reorder.php:67
+msgid "Drag Line Up or Down to ReArrange."
+msgstr ""
+
+#: questions/evr_admin_questions-reorder.php:72
+msgid "REQUIRED"
+msgstr ""
+
+#: questions/evr_admin_questions-reorder.php:76
+msgid "TYPE"
+msgstr ""
+
+#: questions/evr_admin_questions-reorder.php:77
+msgid "QUESTION"
+msgstr ""
+
+#: questions/evr_admin_questions-reorder.php:78
+msgid "RESPONSES"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Event Registration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wpeventregister.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This wordpress plugin is designed to run on a Wordpress webpage and provide "
+"registration for an event or class. It allows you to capture the registering "
+"persons contact information to a database and provides an association to an "
+"events database. It provides the ability to send the register to either a "
+"Paypal, Google Pay, or Authorize.net online payment site for online "
+"collection of event fees. Detailed payment management system to track and "
+"record event payments. Reporting features provide a list of events, list of "
+"attendees, and excel export."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "David Fleming - Edge Technology Consulting"
+msgstr ""

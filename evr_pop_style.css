@@ -1,0 +1,76 @@
+/*--Styling Inside Popup--*/
+#evr_pop_top{
+    clear: both;
+    width: 98%;
+    text-align: center;
+
+    
+}
+.evr_pop_hdr_img { 
+  width:  auto; 
+  height: 100px; 
+}
+#evr_pop_title{
+    clear: both;
+    width: 98%;
+    
+}
+#evr_pop_date_row{
+    clear: both;
+    width: 98%;
+    
+}
+.evr_pop_date{
+    
+}
+#evr_pop_body{
+    clear: left;
+    float: left;
+    width: 500px;
+   
+}
+#evr_pop_image{
+    clear: right;
+    float: right;
+    margin: 0 10px 0 10px;
+    width:100px;
+    
+}
+.evr_pop_img { 
+  width:  90px; 
+  height: auto; 
+}
+
+#evr_pop_price{
+ width: 98%;
+ float: left;
+ font-weight: bold;
+ padding: 10px 0 10px 0;
+ }
+ 
+#evr_pop_venue{
+ width: 98%;
+ font-weight: bold;
+ padding: 10px 0 10px 0;
+  
+}
+#evr_pop_address{
+ width: 300px;
+ float: left;
+ font-weight: bold;
+ 
+ }
+#evr_pop_map{
+ width: 282px;
+ float: right;
+ font-weight: bold;
+ 
+ }
+#evr_pop_foot{
+    clear: both;
+    
+}
+.evr_spacer{
+    padding: 5px 0 5px 0;
+    clear:both;
+}
