@@ -25,6 +25,19 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 global $evr_date_format, $evr_ver, $wpdb;
 $evr_date_format = "M j,Y";
 $evr_ver = "6.02.02";
+
+if( ! class_exists( 'wp_event_registration_Updater' ) ){
+	include_once( plugin_dir_path( __FILE__ ) . 'wp_event_registration_updater.php' );
+}
+
+$updater = new wp_event_registration_Updater ( __FILE__ );
+$updater->set_username( 'avdude' );
+$updater->set_repository( 'event-registration' );
+/*
+	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
+*/
+$updater->initialize();
+
 /**
  * To change date format in event listing display
  * Tuesday, Jan 23, 2011  -  "l, M j,Y"
