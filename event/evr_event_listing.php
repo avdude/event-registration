@@ -11,6 +11,8 @@ function evr_new_event_button(){
 function evr_event_listing(){
 //initiate connection to wordpress database.
 global $wpdb, $evr_date_format,$company_options;
+$plugins_url = plugins_url()."/event-registration/";
+echo $plugins_url;
 if ($company_options['eventpaging'] >= "1"){
                    //define # of records to display per page
                     $record_limit = $company_options['eventpaging'];  
@@ -22,6 +24,154 @@ if ($company_options['eventpaging'] >= "1"){
 //get today's date to sort records between current & expired'
 $curdate = date("Y-m-d");
 ?>
+<style type="text/css">
+.wrapper1{
+   min-height: 60px;
+   padding: 2px;
+}
+
+.wrapper {
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 50px;
+   padding: 10px;
+}
+#one {
+  background-color: white;
+  float: left;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:60px;
+  width:50%;
+}
+#two {
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:60px;
+}
+
+@media screen and (max-width: 400px) {
+   #one {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;
+  }
+}
+
+/* ----------------------------------------------  Reset form elements ---------------------------------------------- */
+input, select, textarea {
+margin:0; padding:0; font-size:0.85em; outline:none;
+font-family:inherit;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+box-sizing:border-box;}
+/* ----------------------------------------------  Inputs, textareas and selects  ---------------------------------------------- */
+input[type="text"], input[type="email"], textarea, select, div.styled, input[type="file"] {
+width:12em; border-radius:2px; border: solid 1px #ccc; padding:0.4em;}
+div.styled, select, input[type="submit"], input[type="button"],
+input[type="file"]:after {
+background: white url(formelements-select.png) no-repeat center right;
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.ie9 input[type="text"] {
+line-height:normal; } /* Get the stuff to line up right */
+textarea { width:100%; height:10em; }
+/* ----------------------------------------------  Select menu  ---------------------------------------------- */
+
+/* For IE and Firefox */
+div.styled { overflow:hidden; padding:0; margin:0; }
+.ie7 div.styled {border:none;}
+div.styled select {
+width:115%; background-color:transparent; background-image:none;
+-webkit-appearance: none; border:none;}
+.ie7 div.styled select {
+width:100%; background-color:#fff; border: solid 1px #ccc;
+padding:0.3em 0.5em;}
+/* ----------------------------------------------  File field  ----------------------------------------------  */
+
+/* Webkit Only */
+input[type="file"] {
+position: relative;
+-webkit-appearance: none;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;	width: 40%;	padding:0;}
+input[type=file]::-webkit-file-upload-button {
+width: 0; padding: 0; margin: 0;-webkit-appearance: none; border: none;}
+
+input[type="file"]:after {
+content: 'Upload File';
+margin:0 0 0 0.5em;
+display: inline-block; left: 100%; position: relative;
+background:white url(formelements-select.png) no-repeat center left;
+padding:0.3em 0.5em; border: solid 1px #ccc !important;
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+border-radius:4px;}
+
+input[type="file"]:active:after {box-shadow:none;}
+
+
+/* ----------------------------------------------  Checkboxes and Radio inputs  ----------------------------------------------  */
+
+	input[type="radio"],
+	input[type="checkbox"] { position: absolute; left: -999em; }
+
+	label:before {
+		display: inline-block; position: relative; top:0.25em; left:-2px;
+		content:''; width:25px; height:25px;
+		background-image:url(formelements.png); }
+
+	input[type="checkbox"] + label:before { background-position: 0 -25px;}
+	input[type="checkbox"]:checked + label:before {background-position: 0 0 ; }
+
+	input[type="radio"] + label:before { background-position: -25px -25px;}
+	input[type="radio"]:checked + label:before { background-position: -25px 0;}
+
+		/* Remove the custom styling for IE 7-8 */
+
+		.ie8 label:before { display:none; content:none; }
+
+		.ie8 input[type="checkbox"],
+		.ie8 input[type="radio"],
+		.ie7 input[type="checkbox"],
+		.ie7 input[type="radio"]{
+			position: static; left:0; }
+
+		.ie8 input[type="checkbox"],
+		.ie8 input[type="radio"] {
+			position:relative; top:5px; margin-right:0.5em;}
+
+	input[type="text"]:focus, textarea:focus {
+		border-color:#000;
+		}
+
+/* ---------------------------------------------- Form Submit and Next buttons ---------------------------------------------- */
+	input[type="submit"], input[type="reset"],
+	input[type="button"] {
+	padding:0.5em 1em; line-height:1em; cursor:pointer;
+	border-radius:4px; color:#000; font-weight:bold; font-size:inherit;
+	border:solid 1px #ccc; background-position: center bottom;}
+	/* Gradient Generator by : http://www.colorzilla.com/gradient-editor/ */
+	input[type="submit"]:active,
+	input[type="button"]:active {-webkit-box-shadow: none; box-shadow:none;}
+	/* IE7 needs you to change the background to transparent when using image background for submit buttons */
+/*----------------------------------------------  Media Queries ----------------------------------------------  */
+	@media screen and (max-width: 600px) {
+		body { width:80%; font-size:15px; }
+	}/* end of query */
+	@media screen and (max-width: 400px) {
+		input[type="text"], textarea, select, div.styled { width:100% }
+	}/* end of query */
+</style>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <div class="wrap">
 <h2 style="font-family: segoe;"><a href="http://www.wpeventregister.com"><img src="<?php echo EVR_PLUGINFULLURL; ?>images/evr_icon.png" alt="Event Registration for Wordpress" /></a></h2>
 <h2><?php _e('Event Management','evr_language');?></h2>
@@ -143,7 +293,20 @@ if ($expiration_date <= $today){
                             <td style="white-space: nowrap;"><?php echo $start_date; ?></td>
                             <td><?php echo $event_id; ?></td>
                             <td>
-                            <a href="#TB_inline?height=600&width=400&inlineId=popup<?php echo $event_id;?>" class="thickbox"><?php echo evr_truncateWords($event_name, 8, "..."); ?></a>
+                            <!-- <a class="inline" href="#event_content_<?php echo $event_id;?>"><?php echo evr_truncateWords($event_name, 8, "..."); ?></a>
+                           -->
+                           <style>#TB_window {
+min-width:900px!important;
+max-height: 600px!important;
+
+}
+
+
+
+</style>
+                            <a href="#TB_inline?height=890&width=850&inlineId=popup<?php echo $event_id;?>" class="thickbox"><?php echo evr_truncateWords($event_name, 8, "..."); ?></a>
+                           
+                            
                             <br />
                             <?php echo $event_location; ?><?php echo ", ".$event_city; ?>
                             </td>
@@ -283,10 +446,12 @@ if ($expiration_date <= $today){
             				}   
   
                             //div for popup goes here.
-                            include "evr_event_popup_pop.php";         
+                            include "evr_event_popup_pop2.php";         
                             }}
+                            
 ?>
 </div>
 <?php
-}
+              
+}# End of Event Display List Function
 ?>
