@@ -4,6 +4,7 @@
  * @copyright 2012
  * This file takes an array from an event row and turns it into strings
  */
+ global $wpdb, $evr_date_format,$company_options;
 #Begin string generation
 $event_id = $event->id;
 $reg_form_defaults = unserialize($event->reg_form_defaults);
