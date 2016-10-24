@@ -3,6 +3,7 @@
  * @author David Fleming
  * @copyright 2011
  */
+ global $wpdb, $evr_date_format,$company_options;
 $cal_title = __('Click Here to add to your Calendar Sotware - downloads an ICS file.','evr_language');
 ?>
 <!-- Main Page Event PopUp Start -->
